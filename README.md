@@ -66,6 +66,27 @@ CAFは、他のさまざまなチャンクタイプをサポートしており�
 
 
 
+### Required
+
+すべてのCAFファイルには、次のチャンクが含まれている必要があります。
+
+
+- 音声ガイドチャンク。ファイルの音声データ形式を記述します。 このチャンクは、CAFファイルヘッダーの直後に続く必要があります。 [Audio Description Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGGEDGI) を参照してください。
+- ファイルのオーディオデータを含むオーディオデータチャンク。 データチャンクのサイズがわからない場合は、ファイルの最後のチャンクである必要があります。 このチャンクのヘッダーでサイズが指定されている場合、チャンクは音声ガイドチャンクの後のどこにでも表示できます。 [Audio Data Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGGEFGJ) を参照してください。
+- オーディオパケットのサイズが異なる場合、ファイルには各パケットのサイズを記録するパケットテーブルチャンクが必要です。 [Packet Table Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGBDDAI) を参照してください。
+
+
+### Channel Layout
+
+3つ以上のチャネルを持つすべてのCAFファイルに必要なチャンクが1つあります。
+
+- チャネルレイアウトチャンク。ファイル内の各チャネルの役割を記述します。 このチャンクは、1チャネルおよび2チャネルのファイルではオプションです。 [Channel Layout Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGCIJCF) を参照してください。
+
+
+
+
+
+
 
 
 ``` log
