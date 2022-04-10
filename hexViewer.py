@@ -1,6 +1,8 @@
 from pathlib import Path
 import ui
 
+from pprint import pprint
+
 # https://github.com/humberry/hexviewer
 
 FONT = ('Ubuntu Mono', 11.5)
@@ -9,55 +11,59 @@ TEXT_COLOR = .872
 HEX_RANGE = range(16)
 
 
-def set_header_str():
-  addr_txt = ','.join([format(a, '02X') for a in HEX_RANGE])
-  hex_txt = ''.join([format(h, 'X') for h in HEX_RANGE])
-  return f'ADRS| {addr_txt}|{hex_txt}'
+def convert_bytes_to_list(bytes, size):
+  return [bytes[byte:byte + size] for byte in range(0, len(bytes), size)]
+
+
+def set_hrx_text(bytes):
+  return_text = ''
+  bytes_list = convert_bytes_to_list(bytes, 16)
+  for n, byte in enumerate(bytes_list):
+    addr_txt = format(n * 16, '04X')
+    hex_txt = ','.join([format(h, '02X') for h in byte])
+    char_txt = ''.join(
+      [chr(c) if 31 < c < 127 else '¯' if 0 == c else '•' for c in byte])
+    return_text += f'{addr_txt}| {hex_txt}|{char_txt}\n'
+  return return_text
+
+
+def set_header_str(*args):
+  hex_txt = ','.join([format(h, '02X') for h in HEX_RANGE])
+  char_txt = ''.join([format(c, 'X') for c in HEX_RANGE])
+  return f'ADRS| {hex_txt}|{char_txt}'
 
 
 class HexView(ui.View):
-  def __init__(self, *args, **kwargs):
+  def __init__(self, path,*args, **kwargs):
     ui.View.__init__(self, *args, **kwargs)
+    sound_bytes = path.read_bytes()
     self.bg_color = 'slategray'
-    self.header_view = self.setup_header()
-    self.main_view = self.setup_hextext()
+    self.header_view = self.setup_hex_text(set_header_str)
+    self.header_view.flex = 'W'
+    self.header_view.scroll_enabled = False
+    self.main_view = self.setup_hex_text(set_hrx_text, sound_bytes)
+    self.main_view.flex = 'WH'
     self.add_subview(self.header_view)
     self.add_subview(self.main_view)
 
-  def setup_hextext(self):
-    # xxx: ぶっこむ関数変えればいいだけでは？
-    hextext = ui.TextView()
-    hextext.editable = False
-    hextext.font = FONT
-    hextext.bg_color = 'maroon'#BG_COLOR
-    hextext.text_color = TEXT_COLOR
-    hextext.flex = 'WH'
-    #hextext.size_to_fit()
-    dummytext = ''
-    for n in range(100):
-      dummytext += set_header_str() + '\n'
-    hextext.text = dummytext
-    return hextext
-    
-  
-  def setup_header(self):
-    header = ui.TextView()
-    header.editable = False
-    header.font = FONT
-    header.bg_color = BG_COLOR
-    header.text_color = TEXT_COLOR
-    header.flex = 'W'
-    header.size_to_fit()
-    header.text = set_header_str()
-    return header
+  def setup_hex_text(self, func, var=None):
+    text_view = ui.TextView()
+    text_view.editable = False
+    text_view.font = FONT
+    text_view.bg_color = BG_COLOR
+    text_view.text_color = TEXT_COLOR
+    text_view.text = func(var)
+    return text_view
 
   def layout(self):
+    self.header_view.size_to_fit()
     self.header_view.width = self.width
-    #self.main_view.width = self.width
     self.main_view.y = self.header_view.height
 
 
 if __name__ == '__main__':
-  hex_view = HexView()
+  SIMToolkitNegativeACK_path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
+  SIMToolkitNegativeACK_path = Path(SIMToolkitNegativeACK_path_str)
+  hex_view = HexView(SIMToolkitNegativeACK_path)
   hex_view.present(style='panel', orientations=['portrait'])
 
