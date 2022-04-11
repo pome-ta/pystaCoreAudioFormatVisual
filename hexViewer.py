@@ -41,6 +41,7 @@ def set_header_str(*args):
 class HexView(ui.View):
   def __init__(self, path, *args, **kwargs):
     ui.View.__init__(self, *args, **kwargs)
+    
     sound_bytes = path.read_bytes()
     self.bg_color = 'slategray'
 
@@ -50,9 +51,11 @@ class HexView(ui.View):
 
     self.binary_view = self.setup_hex_text(set_hex_str, sound_bytes)
     self.binary_view.flex = 'WH'
+    
 
     self.add_subview(self.header_view)
     self.add_subview(self.binary_view)
+    self.name = str(path).split('/')[-1]
 
   def setup_hex_text(self, func, var=None):
     text_view = ui.TextView()
