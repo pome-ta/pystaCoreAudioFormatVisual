@@ -15,12 +15,16 @@ def convert_bytes_to_list(bytes, size):
   return [bytes[byte:byte + size] for byte in range(0, len(bytes), size)]
 
 
+def get_hex_texts(list):
+  return ','.join([format(byte, '02X') for byte in list])
+
+
 def set_hrx_text(bytes):
   return_text = ''
   bytes_list = convert_bytes_to_list(bytes, 16)
   for n, byte in enumerate(bytes_list):
     addr_txt = format(n * 16, '04X')
-    hex_txt = ','.join([format(h, '02X') for h in byte])
+    hex_txt = get_hex_texts(byte)
     char_txt = ''.join(
       [chr(c) if 31 < c < 127 else '¯' if 0 == c else '•' for c in byte])
     return_text += f'{addr_txt}| {hex_txt}|{char_txt}\n'
@@ -28,21 +32,24 @@ def set_hrx_text(bytes):
 
 
 def set_header_str(*args):
-  hex_txt = ','.join([format(h, '02X') for h in HEX_RANGE])
+  hex_txt = get_hex_texts(HEX_RANGE)
   char_txt = ''.join([format(c, 'X') for c in HEX_RANGE])
   return f'ADRS| {hex_txt}|{char_txt}'
 
 
 class HexView(ui.View):
-  def __init__(self, path,*args, **kwargs):
+  def __init__(self, path, *args, **kwargs):
     ui.View.__init__(self, *args, **kwargs)
     sound_bytes = path.read_bytes()
     self.bg_color = 'slategray'
+    
     self.header_view = self.setup_hex_text(set_header_str)
     self.header_view.flex = 'W'
     self.header_view.scroll_enabled = False
+    
     self.main_view = self.setup_hex_text(set_hrx_text, sound_bytes)
     self.main_view.flex = 'WH'
+    
     self.add_subview(self.header_view)
     self.add_subview(self.main_view)
 
