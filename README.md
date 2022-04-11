@@ -1,10 +1,12 @@
 # pystaCoreAudioFormatVisual
 
+
+
+`.caf` は、ビッグエンディアン（ネットワーク）バイトオーダー
+
+
+
 [Apple Core Audio Format Specification 1.0](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_intro/CAF_intro.html)
-
-
-
-
 
 
 
