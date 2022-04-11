@@ -60,6 +60,8 @@ CAFは、他のさまざまなチャンクタイプをサポートしており�
 
 ## チャンク構造
 
+> Chunk Structure
+
 すべてのチャンクは、チャンクヘッダーとそれに続くデータセクションで構成されます。 チャンクヘッダーには、次の2つのフィールドが含まれます。
 
 - チャンクのタイプを示す4文字のコード
@@ -73,7 +75,10 @@ CAFは、他のさまざまなチャンクタイプをサポートしており�
 
 ## パケット、フレーム、およびサンプル
 
+> Packets, Frames, and Samples
+
 この仕様を理解するには、次の4つの用語の定義を理解することが重要です。
+
 
 ### Sample
 
@@ -94,14 +99,18 @@ CAFは、他のさまざまなチャンクタイプをサポートしており�
 非圧縮または解凍されたデータの1秒あたりのサンプルの完全なフレームの数。
 
 
-## チャンクの種類
+# チャンクの種類
+
+> Types of Chunks
 
 このセクションでは、CAF仕様で定義されているチャンクのタイプを簡単に紹介します。 すべてのCAFチャンクタイプは、[Core AudioFormatSpecification](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-SW1) で完全に説明されています。
 
 
 
 
-### Required
+## 必須
+
+> Required
 
 すべてのCAFファイルには、次のチャンクが含まれている必要があります。
 
@@ -111,11 +120,85 @@ CAFは、他のさまざまなチャンクタイプをサポートしており�
 - オーディオパケットのサイズが異なる場合、ファイルには各パケットのサイズを記録するパケットテーブルチャンクが必要です。 [Packet Table Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGBDDAI) を参照してください。
 
 
-### Channel Layout
+## チャネルレイアウト
+
+> Channel Layout
 
 3つ以上のチャネルを持つすべてのCAFファイルに必要なチャンクが1つあります。
 
 - チャネルレイアウトチャンク。ファイル内の各チャネルの役割を記述します。 このチャンクは、1チャネルおよび2チャネルのファイルではオプションです。 [Channel Layout Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGCIJCF) を参照してください。
 
 
-### Supplementary Data
+## 補足データ
+
+> Supplementary Data
+
+
+一部のチャンクは、他のサポートチャンクのデータを参照します。
+
+
+- 一部の圧縮オーディオデータ形式では、オーディオデータをデコードするために追加のコーデック固有のデータが必要です。 オーディオ形式でこのデータが必要な場合、ファイルにはMagicCookieチャンクが必要です。 [Magic Cookie Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGFCCFA) を参照してください。
+- 一部のチャンクは、Stringsチャンクに保持されているテキスト文字列を参照します。 [Strings Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGIAFAD) を参照してください。
+
+
+## マーカー
+
+> Markers
+
+データファイルにマーカーを配置するために使用できる2つのチャンクがあります。 これらのチャンクは、[Marker Data Types](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGCHAJE) で説明されているデータ型を共有します。
+
+
+- マーカーチャンクは個々のマーカーを保持します。 [Marker Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGCHAJE) を参照してください。
+- リージョンチャンクは、オーディオデータのセグメントを示します。 [Region Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGHBCCE) を参照してください
+
+
+## 音楽メタデータ
+
+> Music Metadata
+
+
+音楽情報を保存するチャンクタイプは2つあります。
+
+- インストゥルメントチャンクは、オーディオがサンプラーによって使用される場合、またはインストゥルメントとして再生される場合に必要なオーディオデータの側面を表します。  [Instrument Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGJIDHD) を参照してください。
+- MIDIチャンクは、すべての情報を標準MIDIファイルに保存します。[MIDI Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGJJDBF) を参照してください。
+
+
+## 編集者のサポート
+
+> Support For Editors
+
+
+2つのチャンクには、オーディオエディタで使用するためのデータが含まれています。
+
+- 概要チャンクには、特定の解像度でオーディオを表示するのに役立つデータのサンプルが含まれています。  CAFファイルには、これらをいくつでも含めることができます。 表示される解像度ごとに1つ。 [Overview Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGBIJEH) を参照してください。
+- ピークチャンクは、各チャネルのピーク振幅を一覧表示し、その振幅が発生するフレームを指定します。 [Peak Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGDICDC) を参照してください。
+
+
+## 識別子
+
+> Identifier
+
+1つのチャンクタイプを使用して、データを一意に識別できます。
+
+- オプションのUniqueMaterialIdentifier（UMID）チャンクは、CAFファイルのオーディオデータに一意の識別子を提供します。 ファイルには最大で1つのUMIDチャンクを含めることができます。 [Unique Material Identifier Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGCECBB) を参照してください。
+
+
+## CAFの拡張
+
+> Extending CAF
+
+
+独自のチャンクタイプを定義して、CAFファイル仕様を拡張できます。 この目的のために定義されたチャンクタイプがあります：
+
+- User-Definedチャンクは、新しいチャンクタイプのユニバーサル一意ID（UUID）を提供します。 [User-Defined Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGHJGEC) を参照してください。
+
+
+## 余分なスペース
+
+> Extra Space
+
+
+多くのチャンクタイプでは、追加のスペースを予約するために、データに現在必要なサイズよりも大きなチャンクサイズを指定できます。  CAFファイル全体に余分なスペースを予約するために使用できる特別なチャンクもあります。
+
+
+- Freeチャンクにはデータが含まれていませんが、後で使用できるスペースが予約されています。 [Free Chunk](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_spec/CAF_spec.html#//apple_ref/doc/uid/TP40001862-CH210-BCGDCHAA) を参照してください。
