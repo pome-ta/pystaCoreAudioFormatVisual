@@ -9,7 +9,7 @@ SIMToolkitNegativeACK_path = Path(SIMToolkitNegativeACK_path_str)
 sound_bytes = SIMToolkitNegativeACK_path.read_bytes()
 
 
-class CAFFileHeader(ctypes.Structure):
+class CAFFileHeader(ctypes.BigEndianStructure):
   _fields_ = [
     ('mFileType', ctypes.c_uint32),
     ('mFileVersion', ctypes.c_uint16),
@@ -17,14 +17,14 @@ class CAFFileHeader(ctypes.Structure):
   ]
 
 
-class CAFChunkHeader(ctypes.Structure):
+class CAFChunkHeader(ctypes.BigEndianStructure):
   _fields_ = [
     ('mChunkType', ctypes.c_uint32),
     ('mChunkSize', ctypes.c_int64),
   ]
 
 
-class CAFAudioFormat(ctypes.Structure):
+class CAFAudioFormat(ctypes.BigEndianStructure):
   _fields_ = [
     ('mSampleRate', ctypes.c_double),
     ('mFormatID', ctypes.c_uint32),
@@ -43,8 +43,6 @@ a = ctypes.sizeof(CAFAudioFormat)
 print(f, c, a)
 h = f + c + a
 
-structs = sound_bytes[:h]
-
 #cafFileHeader = structs[:f]
 #cafChunkHeader = structs[f:f + c]
 #cafAudioFormat = structs[f + c:f + c + a]
@@ -55,7 +53,7 @@ structs = sound_bytes[:h]
 #print(ctypes.sizeof(ctypes.c_uint16), 'uint16')
 #print(ctypes.sizeof(ctypes.c_uint32), 'uint32')
 #print(ctypes.sizeof(ctypes.c_int64), 'int64')
-print(ctypes.sizeof(ctypes.c_double), 'double')
+#print(ctypes.sizeof(ctypes.c_double), 'double')
 
 #mChunkSize = b'\x00\x00\x00\x00\x00\x00\x00 @\xd5\x88\x80'
 
@@ -68,10 +66,13 @@ ff = UInt32 + UInt16 + UInt16
 cc = UInt32 + SInt64
 aa = Float64 + UInt32 + UInt32 + UInt32 + UInt32 + UInt32 + UInt32
 
+hh = ff + cc + aa
+
+structs = sound_bytes[:hh]
+
 cafFileHeader = structs[:ff]
 cafChunkHeader = structs[ff:ff + cc]
 cafAudioFormat = structs[ff + cc:ff + cc + aa]
-
 
 print(cafFileHeader, ':CAFFileHeader')
 print(cafChunkHeader, ':CAFChunkHeader')
@@ -84,8 +85,8 @@ mSampleRate = cafAudioFormat[:Float64]
 
 #print(ctypes.c_uint32(caf))
 
-print(struct.unpack('q', mChunkSize), ':mChunkSize')
-print(struct.unpack('d', mSampleRate), ':mSampleRate')
+print(struct.unpack('>q', mChunkSize), ':mChunkSize')
+print(struct.unpack('>d', mSampleRate), ':mSampleRate')
 #print(ctypes.sizeof(ctypes.c_longlong))
 '''
 s = 0
