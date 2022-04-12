@@ -10,6 +10,7 @@ sound_bytes = SIMToolkitNegativeACK_path.read_bytes()
 
 
 class CAFFileHeader(ctypes.BigEndianStructure):
+#class CAFFileHeader(ctypes.Structure):
   _pack_ = 1
   _fields_ = [
     ('mFileType', ctypes.c_uint32),
@@ -17,16 +18,16 @@ class CAFFileHeader(ctypes.BigEndianStructure):
     ('mFileFlags', ctypes.c_uint16),
   ]
 
-
 class CAFChunkHeader(ctypes.BigEndianStructure):
+#class CAFChunkHeader(ctypes.Structure):
   _pack_ = 1
   _fields_ = [
     ('mChunkType', ctypes.c_uint32),
     ('mChunkSize', ctypes.c_int64),
   ]
 
-
 class CAFAudioFormat(ctypes.BigEndianStructure):
+#class CAFAudioFormat(ctypes.Structure):
   _pack_ = 1
   _fields_ = [
     ('mSampleRate', ctypes.c_double),
@@ -46,6 +47,16 @@ a = ctypes.sizeof(CAFAudioFormat)
 print(f, c, a)
 h = f + c + a
 
+fileHeader = sound_bytes[:f]
+chunkHeader = sound_bytes[f:f + c]
+audioFormat = sound_bytes[f + c:f + c + a]
+
+cafFileHeader = CAFFileHeader.from_buffer(bytearray(fileHeader))
+cafChunkHeader = CAFChunkHeader.from_buffer(bytearray(chunkHeader))
+cafAudioFormat = CAFAudioFormat.from_buffer(bytearray(audioFormat))
+
+#print(bytearray(file_header))
+'''
 #cafFileHeader = structs[:f]
 #cafChunkHeader = structs[f:f + c]
 #cafAudioFormat = structs[f + c:f + c + a]
@@ -91,6 +102,7 @@ mSampleRate = cafAudioFormat[:Float64]
 print(struct.unpack('>q', mChunkSize), ':mChunkSize')
 print(struct.unpack('>d', mSampleRate), ':mSampleRate')
 #print(ctypes.sizeof(ctypes.c_longlong))
+'''
 '''
 s = 0
 e = sizeof(c_uint32(0))
