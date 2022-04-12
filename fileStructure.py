@@ -10,6 +10,7 @@ sound_bytes = SIMToolkitNegativeACK_path.read_bytes()
 
 
 class CAFFileHeader(ctypes.BigEndianStructure):
+  _pack_ = 1
   _fields_ = [
     ('mFileType', ctypes.c_uint32),
     ('mFileVersion', ctypes.c_uint16),
@@ -18,6 +19,7 @@ class CAFFileHeader(ctypes.BigEndianStructure):
 
 
 class CAFChunkHeader(ctypes.BigEndianStructure):
+  _pack_ = 1
   _fields_ = [
     ('mChunkType', ctypes.c_uint32),
     ('mChunkSize', ctypes.c_int64),
@@ -25,6 +27,7 @@ class CAFChunkHeader(ctypes.BigEndianStructure):
 
 
 class CAFAudioFormat(ctypes.BigEndianStructure):
+  _pack_ = 1
   _fields_ = [
     ('mSampleRate', ctypes.c_double),
     ('mFormatID', ctypes.c_uint32),
