@@ -8,7 +8,27 @@
 
 [Apple Core Audio Format Specification 1.0](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_intro/CAF_intro.html)
 
+``` log
+General
+Complete name                            : SIMToolkitNegativeACK.caf
+Format                                   : CAF
+Format/Info                              : Core Audio Format
+Format version                           : Version 1
+File size                                : 14.2 KiB
+Duration                                 : 164 ms
+Overall bit rate                         : 711 kb/s
 
+Audio
+Format                                   : PCM
+Codec ID                                 : lpcm
+Duration                                 : 164 ms
+Bit rate                                 : 705.6 kb/s
+Channel(s)                               : 2 channels
+Sampling rate                            : 22.05 kHz
+Bit depth                                : 16 bits
+Stream size                              : 14.2 KiB (100%)
+
+```
 
 
 ``` log
