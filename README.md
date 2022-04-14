@@ -40,11 +40,11 @@ enum {
 };
 ```
 
-**kCAFLinearPCMFormatFlagIsFloat**
+- kCAFLinearPCMFormatFlagIsFloat
 1 for floating point, 0 for signed integer.
 
 
-**kCAFLinearPCMFormatFlagIsLittleEndian**
+- kCAFLinearPCMFormatFlagIsLittleEndian
 1 for little endian, 0 for big endian.
 
 
