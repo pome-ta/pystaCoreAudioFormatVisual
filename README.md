@@ -1,12 +1,38 @@
 # pystaCoreAudioFormatVisual
 
 
+## 読み込み
+
+```
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 22050.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+```
+
+
 
 `.caf` は、ビッグエンディアン（ネットワーク）バイトオーダー
 
 
 
 [Apple Core Audio Format Specification 1.0](https://developer.apple.com/library/archive/documentation/MusicAudio/Reference/CAFSpec/CAF_intro/CAF_intro.html)
+
+
 
 ``` log
 General
