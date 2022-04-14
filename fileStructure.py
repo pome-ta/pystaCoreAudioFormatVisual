@@ -17,6 +17,14 @@ class CAFFileHeader(ctypes.BigEndianStructure):
     ('mFileVersion', ctypes.c_uint16),
     ('mFileFlags', ctypes.c_uint16),
   ]
+  
+  def __str__(self):
+    str = f'''CAFFileHeader: 
+  mFileType\t\t: {self.mFileType}
+  mFileVersion\t: {self.mFileVersion}
+  mFileFlags\t\t: {self.mFileFlags}
+    '''
+    return str
 
 class CAFChunkHeader(ctypes.BigEndianStructure):
 #class CAFChunkHeader(ctypes.Structure):
@@ -54,6 +62,9 @@ audioFormat = sound_bytes[f + c:f + c + a]
 cafFileHeader = CAFFileHeader.from_buffer(bytearray(fileHeader))
 cafChunkHeader = CAFChunkHeader.from_buffer(bytearray(chunkHeader))
 cafAudioFormat = CAFAudioFormat.from_buffer(bytearray(audioFormat))
+
+
+print(cafFileHeader)
 
 #print(bytearray(file_header))
 '''
