@@ -43,6 +43,7 @@ class HexView(ui.View):
     ui.View.__init__(self, *args, **kwargs)
     
     sound_bytes = path.read_bytes()
+    #print(sound_bytes)
     self.bg_color = 'slategray'
 
     self.header_view = self.setup_hex_text(set_header_str)
@@ -73,9 +74,11 @@ class HexView(ui.View):
 
 
 if __name__ == '__main__':
-  SIMToolkitNegativeACK_path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
-  SIMToolkitNegativeACK_path = Path(SIMToolkitNegativeACK_path_str)
+  path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
   
-  hex_view = HexView(SIMToolkitNegativeACK_path)
+  #path_str = '/System/Library/Audio/UISounds/New/Bloom.caf'
+  path = Path(path_str)
+  
+  hex_view = HexView(path)
   hex_view.present(style='panel', orientations=['portrait'])
 

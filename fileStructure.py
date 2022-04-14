@@ -3,12 +3,13 @@ import ctypes
 
 import struct
 
-SIMToolkitNegativeACK_path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
-SIMToolkitNegativeACK_path = Path(SIMToolkitNegativeACK_path_str)
+path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
 
-sound_bytes = SIMToolkitNegativeACK_path.read_bytes()
+#path_str = '/System/Library/Audio/UISounds/New/Bloom.caf'
 
+path = Path(path_str)
 
+sound_bytes = path.read_bytes()
 
 
 class CAFFileHeader(ctypes.BigEndianStructure):
@@ -80,6 +81,11 @@ class CAFAudioFormat(ctypes.BigEndianStructure):
     return str
 
 
+def get_chunk(set_struct, set_bytes, start, end):
+  cut_bytes = set_bytes[start:start + end]
+  return set_struct.from_buffer(bytearray(cut_bytes))
+
+
 f = ctypes.sizeof(CAFFileHeader)
 c = ctypes.sizeof(CAFChunkHeader)
 a = ctypes.sizeof(CAFAudioFormat)
@@ -92,12 +98,28 @@ chunkHeader = sound_bytes[f:f + c]
 audioFormat = sound_bytes[f + c:f + c + a]
 
 cafFileHeader = CAFFileHeader.from_buffer(bytearray(fileHeader))
+
+#cafFileHeader = get_chunk(CAFFileHeader, sound_bytes, 0, ctypes.sizeof(CAFFileHeader))
+
 cafChunkHeader = CAFChunkHeader.from_buffer(bytearray(chunkHeader))
 cafAudioFormat = CAFAudioFormat.from_buffer(bytearray(audioFormat))
 
+dataChunkHeader = sound_bytes[h:h + cafChunkHeader.mChunkSize]
+
+audioDataChunkHeader = CAFChunkHeader.from_buffer(bytearray(dataChunkHeader))
+
+date_size = audioDataChunkHeader.mChunkSize
+
+sss = h + c
+eee = sss + date_size
 print(cafFileHeader)
 print(cafChunkHeader)
 print(cafAudioFormat)
+print(audioDataChunkHeader)
+
+#print(sound_bytes[sss:eee])
+print('---')
+#print(sound_bytes[eee:])
 
 #print(bytearray(file_header))
 '''
@@ -186,5 +208,6 @@ sample = 44800.0
 print(struct.pack('<f', sample))
 
 '''
+
 
 
