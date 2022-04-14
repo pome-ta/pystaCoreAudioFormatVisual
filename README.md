@@ -25,6 +25,31 @@ CAFAudioFormat:
 ```
 
 
+### mFormatFlags Field
+
+サンプルは、`2` (`00000010`)
+
+つまり、`floating`:`0` の`big`:`1` ？
+
+
+
+```
+enum {
+    kCAFLinearPCMFormatFlagIsFloat         = (1L << 0),
+    kCAFLinearPCMFormatFlagIsLittleEndian  = (1L << 1)
+};
+```
+
+**kCAFLinearPCMFormatFlagIsFloat**
+1 for floating point, 0 for signed integer.
+
+
+**kCAFLinearPCMFormatFlagIsLittleEndian**
+1 for little endian, 0 for big endian.
+
+
+[Core Audio その２ AudioStreamBasicDescription](https://objective-audio.jp/2008/03/30/core-audio-audiostreambasicdes/)
+
 
 `.caf` は、ビッグエンディアン（ネットワーク）バイトオーダー
 
