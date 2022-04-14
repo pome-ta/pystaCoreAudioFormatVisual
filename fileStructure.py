@@ -9,33 +9,50 @@ SIMToolkitNegativeACK_path = Path(SIMToolkitNegativeACK_path_str)
 sound_bytes = SIMToolkitNegativeACK_path.read_bytes()
 
 
+
+
 class CAFFileHeader(ctypes.BigEndianStructure):
-#class CAFFileHeader(ctypes.Structure):
+  #class CAFFileHeader(ctypes.Structure):
   _pack_ = 1
   _fields_ = [
     ('mFileType', ctypes.c_uint32),
     ('mFileVersion', ctypes.c_uint16),
     ('mFileFlags', ctypes.c_uint16),
   ]
-  
+
   def __str__(self):
+    # xxx: byte -> int -> byte -> str 🤔
+    type_str = self.mFileType.to_bytes(4, 'big').decode()
     str = f'''CAFFileHeader: 
-  mFileType\t\t: {self.mFileType}
-  mFileVersion\t: {self.mFileVersion}
-  mFileFlags\t\t: {self.mFileFlags}
+  mFileType\t\t\t: {type_str}
+  mFileVersion\t\t: {self.mFileVersion}
+  mFileFlags\t\t\t: {self.mFileFlags}
     '''
+
     return str
 
+
 class CAFChunkHeader(ctypes.BigEndianStructure):
-#class CAFChunkHeader(ctypes.Structure):
+  #class CAFChunkHeader(ctypes.Structure):
   _pack_ = 1
   _fields_ = [
     ('mChunkType', ctypes.c_uint32),
     ('mChunkSize', ctypes.c_int64),
   ]
 
+  def __str__(self):
+    # xxx: byte -> int -> byte -> str 🤔
+    type_str = self.mChunkType.to_bytes(4, 'big').decode()
+    str = f'''CAFChunkHeader: 
+  mChunkType\t\t\t: {type_str}
+  mChunkSize\t\t\t: {self.mChunkSize}
+    '''
+
+    return str
+
+
 class CAFAudioFormat(ctypes.BigEndianStructure):
-#class CAFAudioFormat(ctypes.Structure):
+  #class CAFAudioFormat(ctypes.Structure):
   _pack_ = 1
   _fields_ = [
     ('mSampleRate', ctypes.c_double),
@@ -46,6 +63,21 @@ class CAFAudioFormat(ctypes.BigEndianStructure):
     ('mChannelsPerFrame', ctypes.c_uint32),
     ('mBitsPerChannel', ctypes.c_uint32),
   ]
+
+  def __str__(self):
+    # xxx: byte -> int -> byte -> str 🤔
+    id_str = self.mFormatID.to_bytes(4, 'big').decode()
+    str = f'''CAFAudioFormat: 
+  mSampleRate\t\t\t: {self.mSampleRate}
+  mFormatID\t\t\t: {id_str}
+  mFormatFlags\t\t: {self.mFormatFlags}
+  mBytesPerPacket\t: {self.mBytesPerPacket}
+  mFramesPerPacket\t: {self.mFramesPerPacket}
+  mChannelsPerFrame\t: {self.mChannelsPerFrame}
+  mBitsPerChannel\t: {self.mBitsPerChannel}
+    '''
+
+    return str
 
 
 f = ctypes.sizeof(CAFFileHeader)
@@ -63,8 +95,9 @@ cafFileHeader = CAFFileHeader.from_buffer(bytearray(fileHeader))
 cafChunkHeader = CAFChunkHeader.from_buffer(bytearray(chunkHeader))
 cafAudioFormat = CAFAudioFormat.from_buffer(bytearray(audioFormat))
 
-
 print(cafFileHeader)
+print(cafChunkHeader)
+print(cafAudioFormat)
 
 #print(bytearray(file_header))
 '''
@@ -153,4 +186,5 @@ sample = 44800.0
 print(struct.pack('<f', sample))
 
 '''
+
 
