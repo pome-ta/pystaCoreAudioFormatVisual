@@ -141,20 +141,24 @@ print(f'mBytesPerPacket:{mBytesPerPacket}')
 
 
 
-
-
-
-'''
-data = np.frombuffer(mData, dtype='int16')
+data = np.frombuffer(mData, dtype='int16') / float((2^15))
+print(data)
 data_l = data[::2]
 data_r = data[1::2]
-plt.subplot(211)
+
+plt.subplot(2,1,1)
+plt.title(f'{path_str}')
 plt.plot(data_l)
-plt.subplot(212)
+plt.subplot(2,1,2)
 plt.plot(data_r)
 plt.show()
-'''
 
+x = np.fft.fft(np.frombuffer(mData, dtype="int16"))
+plt.figure(figsize=(15,3))
+plt.plot(x.real[:int(len(x)/2)])
+plt.show()
+
+'''
 import wave
 
 #bi_wave = cafData
@@ -166,7 +170,7 @@ w.setparams(p)
 w.writeframes(bi_wave)
 w.close()
 
-
+'''
 
 
 '''
