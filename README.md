@@ -1,5 +1,35 @@
 # pystaCoreAudioFormatVisual
 
+## 📝 2022/04/15
+
+
+1秒間に実行する標本化処理の回数
+
+mSampleRate			: 22050.0
+
+
+16bit で、ステレオ
+
+
+
+Bit rate 
+
+~`2(ステレオ) * 22050.0(sample rate) * 16(mBitsPerChannel)`~
+
+~`705600`~
+
+
+長さ
+
+`2(ステレオ) * 22050.0 * 2(mBitsPerChannel)`
+
+`88200`
+
+
+`pcmサイズ / 88200`
+
+
+
 
 # 📝 2022/04/14
 
@@ -53,9 +83,10 @@ CAFAudioFormat:
 
 サンプルは、`2` (`00000010`)
 
-つまり、`floating`:`0` の`big`:`1` ？
+つまり、`kCAFLinearPCMFormatFlagIsFloat`:`0` の`kCAFLinearPCMFormatFlagIsLittleEndian`:`1` ？
 
 
+`signed integer` の`little`
 
 ```
 enum {

@@ -81,11 +81,6 @@ class CAFAudioFormat(ctypes.BigEndianStructure):
     return str
 
 
-def get_chunk(set_struct, set_bytes, start, end):
-  cut_bytes = set_bytes[start:start + end]
-  return set_struct.from_buffer(bytearray(cut_bytes))
-
-
 f = ctypes.sizeof(CAFFileHeader)
 c = ctypes.sizeof(CAFChunkHeader)
 a = ctypes.sizeof(CAFAudioFormat)
@@ -98,8 +93,6 @@ chunkHeader = sound_bytes[f:f + c]
 audioFormat = sound_bytes[f + c:f + c + a]
 
 cafFileHeader = CAFFileHeader.from_buffer(bytearray(fileHeader))
-
-#cafFileHeader = get_chunk(CAFFileHeader, sound_bytes, 0, ctypes.sizeof(CAFFileHeader))
 
 cafChunkHeader = CAFChunkHeader.from_buffer(bytearray(chunkHeader))
 cafAudioFormat = CAFAudioFormat.from_buffer(bytearray(audioFormat))
@@ -117,11 +110,35 @@ print(cafChunkHeader)
 print(cafAudioFormat)
 print(audioDataChunkHeader)
 
+
+cafData = sound_bytes[sss:eee]
+mEditCount = cafData[:4]
+mData = cafData[4:]
+print(len(cafData))
+print(len(mData))
+
+print(type(mData))
 #print(sound_bytes[sss:eee])
 print('---')
 #print(sound_bytes[eee:])
 
 #print(bytearray(file_header))
+
+
+mBitsPerChannel = cafAudioFormat.mBitsPerChannel
+mFramesPerPacket = cafAudioFormat.mFramesPerPacket
+mChannelsPerFrame = cafAudioFormat.mChannelsPerFrame
+mBytesPerFrame = cafAudioFormat.mBitsPerChannel / 8 * mChannelsPerFrame
+mBytesPerPacket = mBytesPerFrame * mFramesPerPacket
+
+print(f'mBitsPerChannel:{mBitsPerChannel}')
+print(f'mFramesPerPacket:{mFramesPerPacket}')
+print(f'mChannelsPerFrame:{mChannelsPerFrame}')
+print(f'mBytesPerFrame:{mBytesPerFrame}')
+print(f'mBytesPerPacket:{mBytesPerPacket}')
+
+
+
 '''
 #cafFileHeader = structs[:f]
 #cafChunkHeader = structs[f:f + c]
@@ -208,6 +225,7 @@ sample = 44800.0
 print(struct.pack('<f', sample))
 
 '''
+
 
 
 
