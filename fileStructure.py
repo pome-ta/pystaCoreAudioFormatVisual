@@ -1,7 +1,8 @@
 from pathlib import Path
 import ctypes
 
-import struct
+import numpy as np
+import matplotlib.pyplot as plt
 
 path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
 
@@ -136,6 +137,35 @@ print(f'mFramesPerPacket:{mFramesPerPacket}')
 print(f'mChannelsPerFrame:{mChannelsPerFrame}')
 print(f'mBytesPerFrame:{mBytesPerFrame}')
 print(f'mBytesPerPacket:{mBytesPerPacket}')
+
+
+
+
+
+
+
+'''
+data = np.frombuffer(mData, dtype='int16')
+data_l = data[::2]
+data_r = data[1::2]
+plt.subplot(211)
+plt.plot(data_l)
+plt.subplot(212)
+plt.plot(data_r)
+plt.show()
+'''
+
+import wave
+
+#bi_wave = cafData
+bi_wave = mData
+
+w = wave.Wave_write('./dist/sample.wav')
+p = (2, 2, 22050, len(bi_wave), 'NONE', 'not compressed')
+w.setparams(p)
+w.writeframes(bi_wave)
+w.close()
+
 
 
 

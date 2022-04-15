@@ -2,6 +2,55 @@
 
 ## 📝 2022/04/15
 
+やはり、頭は抜く
+
+``` mData
+General
+Complete name                            : sample.wav
+Format                                   : Wave
+File size                                : 14.2 KiB
+Duration                                 : 164 ms
+Overall bit rate mode                    : Constant
+Overall bit rate                         : 710 kb/s
+
+Audio
+Format                                   : PCM
+Format settings                          : Little / Signed
+Codec ID                                 : 1
+Duration                                 : 164 ms
+Bit rate mode                            : Constant
+Bit rate                                 : 705.6 kb/s
+Channel(s)                               : 2 channels
+Sampling rate                            : 22.05 kHz
+Bit depth                                : 16 bits
+Stream size                              : 14.2 KiB (100%)
+
+
+```
+
+``` cafData
+General
+Complete name                            : sample.wav
+Format                                   : Wave
+File size                                : 14.2 KiB
+Duration                                 : 165 ms
+Overall bit rate mode                    : Constant
+Overall bit rate                         : 706 kb/s
+
+Audio
+Format                                   : PCM
+Format settings                          : Little / Signed
+Codec ID                                 : 1
+Duration                                 : 165 ms
+Bit rate mode                            : Constant
+Bit rate                                 : 705.6 kb/s
+Channel(s)                               : 2 channels
+Sampling rate                            : 22.05 kHz
+Bit depth                                : 16 bits
+Stream size                              : 14.2 KiB (100%)
+
+```
+
 
 1秒間に実行する標本化処理の回数
 
