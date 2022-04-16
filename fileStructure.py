@@ -1,7 +1,7 @@
 from pathlib import Path
 import ctypes
 
-import numpy as np
+#import numpy as np
 import matplotlib.pyplot as plt
 
 path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
@@ -111,7 +111,6 @@ print(cafChunkHeader)
 print(cafAudioFormat)
 print(audioDataChunkHeader)
 
-
 cafData = sound_bytes[sss:eee]
 mEditCount = cafData[:4]
 mData = cafData[4:]
@@ -124,7 +123,6 @@ print('---')
 #print(sound_bytes[eee:])
 
 #print(bytearray(file_header))
-
 
 mBitsPerChannel = cafAudioFormat.mBitsPerChannel
 mFramesPerPacket = cafAudioFormat.mFramesPerPacket
@@ -139,24 +137,43 @@ print(f'mBytesPerFrame:{mBytesPerFrame}')
 print(f'mBytesPerPacket:{mBytesPerPacket}')
 
 
+def int16(mb):
+  return int.from_bytes(mb, byteorder='little', signed=True)
 
 
-data = np.frombuffer(mData, dtype='int16') / float((2^15))
-print(data)
+def byte_to_array(mbyte, cols):
+  return [int16(mbyte[b:b + cols]) for b in range(0, len(mbyte), cols)]
+
+
+#data = np.frombuffer(mData, dtype='int16')
+#data = np.frombuffer(mData, dtype='int16') / float((2^15))
+data = byte_to_array(mData, 2)
+#print(data)
 data_l = data[::2]
 data_r = data[1::2]
 
-plt.subplot(2,1,1)
+plt.subplot(2, 1, 1)
 plt.title(f'{path_str}')
 plt.plot(data_l)
-plt.subplot(2,1,2)
+plt.subplot(2, 1, 2)
 plt.plot(data_r)
 plt.show()
-
-x = np.fft.fft(np.frombuffer(mData, dtype="int16"))
-plt.figure(figsize=(15,3))
-plt.plot(x.real[:int(len(x)/2)])
+'''
+x = np.fft.fft(np.frombuffer(mData, dtype='int16'))
+plt.figure(figsize=(15, 3))
+plt.plot(x.real[:int(len(x) / 2)])
 plt.show()
+'''
+
+print(int.from_bytes(mData[4:6], byteorder='little', signed=True))
+
+#aaaa = byte_to_array(mData, 2)
+
+
+
+
+
+
 
 '''
 import wave
@@ -171,8 +188,6 @@ w.writeframes(bi_wave)
 w.close()
 
 '''
-
-
 '''
 #cafFileHeader = structs[:f]
 #cafChunkHeader = structs[f:f + c]
