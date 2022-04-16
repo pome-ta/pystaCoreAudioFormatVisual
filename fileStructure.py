@@ -5,6 +5,7 @@ import ctypes
 import matplotlib.pyplot as plt
 
 path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
+path_str = '/System/Library/Audio/UISounds/SIMToolkitCallDropped.caf'
 
 #path_str = '/System/Library/Audio/UISounds/New/Bloom.caf'
 
@@ -114,35 +115,29 @@ print(audioDataChunkHeader)
 cafData = sound_bytes[sss:eee]
 mEditCount = cafData[:4]
 mData = cafData[4:]
-print(len(cafData))
-print(len(mData))
 
-print(type(mData))
-#print(sound_bytes[sss:eee])
-print('---')
-#print(sound_bytes[eee:])
-
-#print(bytearray(file_header))
+print('mData_len: ', len(mData))
 
 mBitsPerChannel = cafAudioFormat.mBitsPerChannel
 mFramesPerPacket = cafAudioFormat.mFramesPerPacket
 mChannelsPerFrame = cafAudioFormat.mChannelsPerFrame
 mBytesPerFrame = cafAudioFormat.mBitsPerChannel / 8 * mChannelsPerFrame
 mBytesPerPacket = mBytesPerFrame * mFramesPerPacket
-
+'''
 print(f'mBitsPerChannel:{mBitsPerChannel}')
 print(f'mFramesPerPacket:{mFramesPerPacket}')
 print(f'mChannelsPerFrame:{mChannelsPerFrame}')
 print(f'mBytesPerFrame:{mBytesPerFrame}')
 print(f'mBytesPerPacket:{mBytesPerPacket}')
+'''
 
 
-def int16(mb):
+def to_int16(mb):
   return int.from_bytes(mb, byteorder='little', signed=True)
 
 
 def byte_to_array(mbyte, cols):
-  return [int16(mbyte[b:b + cols]) for b in range(0, len(mbyte), cols)]
+  return [to_int16(mbyte[b:b + cols]) for b in range(0, len(mbyte), cols)]
 
 
 #data = np.frombuffer(mData, dtype='int16')
@@ -151,7 +146,16 @@ data = byte_to_array(mData, 2)
 #print(data)
 data_l = data[::2]
 data_r = data[1::2]
+plt.title(f'{path_str}')
+plt.plot(data_l)
+plt.show()
 
+
+
+duration = len(data_l) / cafAudioFormat.mSampleRate * 1000
+
+print(f'duration: {duration}')
+'''
 plt.subplot(2, 1, 1)
 plt.title(f'{path_str}')
 plt.plot(data_l)
@@ -159,22 +163,16 @@ plt.subplot(2, 1, 2)
 plt.plot(data_r)
 plt.show()
 '''
+'''
 x = np.fft.fft(np.frombuffer(mData, dtype='int16'))
 plt.figure(figsize=(15, 3))
 plt.plot(x.real[:int(len(x) / 2)])
 plt.show()
 '''
 
-print(int.from_bytes(mData[4:6], byteorder='little', signed=True))
+#print(int.from_bytes(mData[4:6], byteorder='little', signed=True))
 
 #aaaa = byte_to_array(mData, 2)
-
-
-
-
-
-
-
 '''
 import wave
 
@@ -274,7 +272,3 @@ sample = 44800.0
 print(struct.pack('<f', sample))
 
 '''
-
-
-
-

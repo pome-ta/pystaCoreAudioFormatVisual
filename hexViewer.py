@@ -26,6 +26,10 @@ def set_hex_str(bytes):
   for n, byte in enumerate(bytes_list):
     addr_txt = format(n * 16, '04X')
     hex_txt = get_hex_texts(',', byte)
+    if byte == bytes_list[-1] and len(byte) < 16:
+      blank = 16 - len(byte)
+      hex_txt += ',--' * blank
+    
     char_txt = ''.join(
       [chr(c) if 31 < c < 127 else '¯' if 0 == c else '•' for c in byte])
     return_text += f'{addr_txt}| {hex_txt}|{char_txt}\n'
@@ -74,7 +78,8 @@ class HexView(ui.View):
 
 
 if __name__ == '__main__':
-  path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
+  #path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
+  path_str = '/System/Library/Audio/UISounds/SIMToolkitCallDropped.caf'
   
   #path_str = '/System/Library/Audio/UISounds/New/Bloom.caf'
   #path_str = '/System/Library/Audio/UISounds/mail-sent.caf'
