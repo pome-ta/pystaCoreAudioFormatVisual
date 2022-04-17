@@ -1,16 +1,7 @@
 from pathlib import Path
 import ctypes
 
-'''
-path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
-path_str = '/System/Library/Audio/UISounds/SIMToolkitCallDropped.caf'
 
-#path_str = '/System/Library/Audio/UISounds/New/Bloom.caf'
-
-path = Path(path_str)
-
-sound_bytes = path.read_bytes()
-'''
 
 class CAFFileHeader(ctypes.BigEndianStructure):
   #class CAFFileHeader(ctypes.Structure):
@@ -107,12 +98,27 @@ def set_struct(read_path):
   audioDataChunkHeader = CAFChunkHeader.from_buffer(bytearray(dataChunkHeader))
   
   
-  print(read_path)
-  print(cafFileHeader)
-  print(cafChunkHeader)
-  print(cafAudioFormat)
-  print(audioDataChunkHeader)
-  print('--- ---- ---')
+  if audioDataChunkHeader.mChunkType.to_bytes(4, 'big').decode() == 'data':
+    print(read_path)
+    #print(cafFileHeader)
+    print(cafChunkHeader)
+    #print(cafAudioFormat)
+    print(audioDataChunkHeader)
+    print(mChunkSize)
+    print(chunk_caf, chunk_dch, chunk_dch-chunk_caf)
+    print('--- ---- ---')
+
+
+def to_int16(mb):
+  return int.from_bytes(mb, byteorder='little', signed=True)
+
+
+def byte_to_array(mbyte, cols):
+  return [to_int16(mbyte[b:b + cols]) for b in range(0, len(mbyte), cols)]
+
+
+
+
 
 
 

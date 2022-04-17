@@ -9,6 +9,12 @@ path_str = '/System/Library/Audio/UISounds/SIMToolkitCallDropped.caf'
 
 #path_str = '/System/Library/Audio/UISounds/New/Bloom.caf'
 
+path_str = '/System/Library/Audio/UISounds/nano/dtmf-9.caf'
+
+path_str = '/System/Library/Audio/UISounds/middle_9_short_double_low.caf'
+
+path_str = '/System/Library/Audio/UISounds/short_double_high.caf'
+
 path = Path(path_str)
 
 sound_bytes = path.read_bytes()
@@ -83,7 +89,6 @@ class CAFAudioFormat(ctypes.BigEndianStructure):
     return str
 
 
-
 f = ctypes.sizeof(CAFFileHeader)
 c = ctypes.sizeof(CAFChunkHeader)
 a = ctypes.sizeof(CAFAudioFormat)
@@ -116,7 +121,7 @@ print(audioDataChunkHeader)
 cafData = sound_bytes[sss:eee]
 mEditCount = cafData[:4]
 mData = cafData[4:]
-
+print(sss)
 print('mData_len: ', len(mData))
 
 mBitsPerChannel = cafAudioFormat.mBitsPerChannel
@@ -145,13 +150,21 @@ def byte_to_array(mbyte, cols):
 #data = np.frombuffer(mData, dtype='int16') / float((2^15))
 data = byte_to_array(mData, 2)
 #print(data)
-data_l = data[::2]
-data_r = data[1::2]
+
+if cafAudioFormat.mChannelsPerFrame == 2 and cafAudioFormat.mBytesPerPacket == 4:
+  data_l = data[::2]
+  data_r = data[1::2]
+elif cafAudioFormat.mChannelsPerFrame == 1 and cafAudioFormat.mBytesPerPacket == 2:
+  data_l = data
+  data_r = data
+
 plt.title(f'{path_str}')
+#plt.plot(data_l)
+plt.subplot(2, 1, 1)
 plt.plot(data_l)
+plt.subplot(2, 1, 2)
+plt.plot(data_r)
 plt.show()
-
-
 
 duration = len(data_l) / cafAudioFormat.mSampleRate * 1000
 
@@ -273,3 +286,4 @@ sample = 44800.0
 print(struct.pack('<f', sample))
 
 '''
+

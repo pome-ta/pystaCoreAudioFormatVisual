@@ -84,7 +84,7 @@ if __name__ == '__main__':
   #path_str = '/System/Library/Audio/UISounds/New/Bloom.caf'
   #path_str = '/System/Library/Audio/UISounds/mail-sent.caf'
   #path_str = '/System/Library/Audio/UISounds/lock.caf'
-  path_str = '/System/Library/Audio/UISounds/key_press_delete.caf'
+  #path_str = '/System/Library/Audio/UISounds/key_press_delete.caf'
   
   path = Path(path_str)
   

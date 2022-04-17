@@ -3,6 +3,48 @@
 ## 📝 2022/04/17
 
 
+| struct size | name | field | value | ctypes |size |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 32 | CAFFileHeader | mFileType | `caff` | `c_uint32` | 4 |
+| 32 | CAFFileHeader | mFileVersion | `1` | `uint16` | 4 |
+| 32 | CAFFileHeader | mFileFlags | `0` | `uint16` | 4 |
+
+
+
+対応できてるものを確認やな、、、
+
+
+``` ok
+CAFChunkHeader: 
+  mChunkType        : desc
+  mChunkSize        : 32
+    
+CAFAudioFormat: 
+  mSampleRate       : 22050.0
+  mFormatID         : lpcm
+  mFormatFlags      : 2
+  mBytesPerPacket   : 4
+  mFramesPerPacket  : 1
+  mChannelsPerFrame : 2
+  mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 14512
+```
+
+### なんとなく
+
+`mChannelsPerFrame` (ステレオ or モノラル)
+
+により、`mBytesPerPacket` が`4` か`2` になる？
+
+
+`data` は完了？
+
+
+
+
 ## 📝 2022/04/15
 
 やはり、頭は抜く
