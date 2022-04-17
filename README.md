@@ -9,10 +9,9 @@
 | 8 | CAFFileHeader | mFileType | `caff` | `c_uint32` | 4 |
 | ^ | ^ | mFileVersion | `1` | `uint16` | 2 |
 | ^ | ^ | mFileFlags | `0` | `uint16` | 2 |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| 8 | CAFFileHeader | mFileType | `caff` | `c_uint32` | 4 |
-| ^ | ^ | mFileVersion | `1` | `uint16` | 2 |
-| ^ | ^ | mFileFlags | `0` | `uint16` | 2 |
+| 12 | CAFChunkHeader | mChunkType | `desc` | `c_uint32` | 4 |
+| ^ | ^ | mChunkSize | `32` | `int64` | 6 |
+
 
 
 
