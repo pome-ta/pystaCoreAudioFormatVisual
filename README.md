@@ -6,8 +6,8 @@
 | struct size | name | field | value | ctypes |size |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 32 | CAFFileHeader | mFileType | `caff` | `c_uint32` | 4 |
-| 32 | CAFFileHeader | mFileVersion | `1` | `uint16` | 4 |
-| 32 | CAFFileHeader | mFileFlags | `0` | `uint16` | 4 |
+| ^ | ^ | mFileVersion | `1` | `uint16` | 4 |
+| ^ | ^ | mFileFlags | `0` | `uint16` | 4 |
 
 
 
