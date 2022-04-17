@@ -27,9 +27,9 @@ class CAFFileHeader(ctypes.BigEndianStructure):
     # xxx: byte -> int -> byte -> str 🤔
     type_str = self.mFileType.to_bytes(4, 'big').decode()
     str = f'''CAFFileHeader: 
-  mFileType\t\t\t: {type_str}
-  mFileVersion\t\t: {self.mFileVersion}
-  mFileFlags\t\t\t: {self.mFileFlags}
+  mFileType         : {type_str}
+  mFileVersion      : {self.mFileVersion}
+  mFileFlags        : {self.mFileFlags}
     '''
 
     return str
@@ -47,8 +47,8 @@ class CAFChunkHeader(ctypes.BigEndianStructure):
     # xxx: byte -> int -> byte -> str 🤔
     type_str = self.mChunkType.to_bytes(4, 'big').decode()
     str = f'''CAFChunkHeader: 
-  mChunkType\t\t\t: {type_str}
-  mChunkSize\t\t\t: {self.mChunkSize}
+  mChunkType        : {type_str}
+  mChunkSize        : {self.mChunkSize}
     '''
 
     return str
@@ -71,16 +71,17 @@ class CAFAudioFormat(ctypes.BigEndianStructure):
     # xxx: byte -> int -> byte -> str 🤔
     id_str = self.mFormatID.to_bytes(4, 'big').decode()
     str = f'''CAFAudioFormat: 
-  mSampleRate\t\t\t: {self.mSampleRate}
-  mFormatID\t\t\t: {id_str}
-  mFormatFlags\t\t: {self.mFormatFlags}
-  mBytesPerPacket\t: {self.mBytesPerPacket}
-  mFramesPerPacket\t: {self.mFramesPerPacket}
-  mChannelsPerFrame\t: {self.mChannelsPerFrame}
-  mBitsPerChannel\t: {self.mBitsPerChannel}
+  mSampleRate       : {self.mSampleRate}
+  mFormatID         : {id_str}
+  mFormatFlags      : {self.mFormatFlags}
+  mBytesPerPacket   : {self.mBytesPerPacket}
+  mFramesPerPacket  : {self.mFramesPerPacket}
+  mChannelsPerFrame : {self.mChannelsPerFrame}
+  mBitsPerChannel   : {self.mBitsPerChannel}
     '''
 
     return str
+
 
 
 f = ctypes.sizeof(CAFFileHeader)
