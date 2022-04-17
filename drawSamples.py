@@ -101,11 +101,17 @@ def set_struct(read_path):
   cafChunkHeader = CAFChunkHeader.from_buffer(bytearray(chunkHeader))
   cafAudioFormat = CAFAudioFormat.from_buffer(bytearray(audioFormat))
   
+  mChunkSize = cafChunkHeader.mChunkSize
+  chunk_dch = chunk_caf + mChunkSize
+  dataChunkHeader = sound_bytes[chunk_caf:chunk_dch]
+  audioDataChunkHeader = CAFChunkHeader.from_buffer(bytearray(dataChunkHeader))
+  
   
   print(read_path)
   print(cafFileHeader)
   print(cafChunkHeader)
   print(cafAudioFormat)
+  print(audioDataChunkHeader)
   print('--- ---- ---')
 
 

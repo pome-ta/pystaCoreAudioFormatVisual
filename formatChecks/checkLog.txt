@@ -17,6 +17,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 14512
+    
 --- ---- ---
 /System/Library/Audio/UISounds/key_press_delete.caf
 CAFFileHeader: 
@@ -36,6 +40,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/acknowledgment_received.caf
@@ -57,6 +65,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/SIMToolkitPositiveACK.caf
 CAFFileHeader: 
@@ -76,6 +88,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 111136
     
 --- ---- ---
 /System/Library/Audio/UISounds/short_double_high.caf
@@ -97,6 +113,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 20864
+    
 --- ---- ---
 /System/Library/Audio/UISounds/acknowledgment_sent.caf
 CAFFileHeader: 
@@ -116,6 +136,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/tweet_sent.caf
@@ -137,6 +161,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/end_record.caf
 CAFFileHeader: 
@@ -156,6 +184,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/begin_record.caf
@@ -177,6 +209,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/SIMToolkitCallDropped.caf
 CAFFileHeader: 
@@ -196,6 +232,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 15148
     
 --- ---- ---
 /System/Library/Audio/UISounds/Tink.caf
@@ -217,6 +257,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/short_double_low.caf
 CAFFileHeader: 
@@ -236,6 +280,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 20876
     
 --- ---- ---
 /System/Library/Audio/UISounds/Tock.caf
@@ -257,6 +305,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/sms-received2.caf
 CAFFileHeader: 
@@ -276,6 +328,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/focus_change_small.caf
@@ -297,6 +353,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/access_scan_complete.caf
 CAFFileHeader: 
@@ -316,6 +376,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/lock.caf
@@ -337,6 +401,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/sms-received3.caf
 CAFFileHeader: 
@@ -356,6 +424,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/sms-received1.caf
@@ -377,6 +449,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/ct-path-ack.caf
 CAFFileHeader: 
@@ -396,6 +472,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/keyboard_press_clear.caf
@@ -417,6 +497,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/3rd_party_critical.caf
 CAFFileHeader: 
@@ -436,6 +520,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/sms-received4.caf
@@ -457,6 +545,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/SIMToolkitSMS.caf
 CAFFileHeader: 
@@ -476,6 +568,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 43352
     
 --- ---- ---
 /System/Library/Audio/UISounds/photoShutter.caf
@@ -497,6 +593,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/camera_timer_countdown.caf
 CAFFileHeader: 
@@ -516,6 +616,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/sms-received5.caf
@@ -537,6 +641,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/SIMToolkitGeneralBeep.caf
 CAFFileHeader: 
@@ -556,6 +664,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 33520
     
 --- ---- ---
 /System/Library/Audio/UISounds/middle_9_short_double_low.caf
@@ -577,6 +689,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 91412
+    
 --- ---- ---
 /System/Library/Audio/UISounds/focus_change_large.caf
 CAFFileHeader: 
@@ -596,6 +712,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/SentMessage.caf
@@ -617,6 +737,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/sms-received6.caf
 CAFFileHeader: 
@@ -636,6 +760,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/RingerChanged.caf
@@ -657,6 +785,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 14852
+    
 --- ---- ---
 /System/Library/Audio/UISounds/navigation_push.caf
 CAFFileHeader: 
@@ -676,6 +808,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/jbl_no_match.caf
@@ -697,6 +833,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/payment_failure.caf
 CAFFileHeader: 
@@ -716,6 +856,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 64
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/warsaw.caf
@@ -737,6 +881,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 24
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/navigation_pop.caf
 CAFFileHeader: 
@@ -756,6 +904,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/health_notification.caf
@@ -777,6 +929,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/NavigationGenericManeuver.caf
 CAFFileHeader: 
@@ -796,6 +952,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 32
+    
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
     
 --- ---- ---
 /System/Library/Audio/UISounds/key_press_modifier.caf
@@ -817,6 +977,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nfc_scan_failure.caf
 CAFFileHeader: 
@@ -836,6 +1000,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 64
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/ct-busy.caf
@@ -857,6 +1025,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/camera_timer_final_second.caf
 CAFFileHeader: 
@@ -876,6 +1048,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/wheels_of_time.caf
@@ -897,6 +1073,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 24
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/low_power.caf
 CAFFileHeader: 
@@ -916,6 +1096,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/long_low_short_high.caf
@@ -937,6 +1121,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 46086
+    
 --- ---- ---
 /System/Library/Audio/UISounds/mail-sent.caf
 CAFFileHeader: 
@@ -956,6 +1144,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/jbl_begin.caf
@@ -977,6 +1169,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/short_low_high.caf
 CAFFileHeader: 
@@ -996,6 +1192,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 21980
     
 --- ---- ---
 /System/Library/Audio/UISounds/focus_change_keyboard.caf
@@ -1017,6 +1217,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/jbl_confirm.caf
 CAFFileHeader: 
@@ -1036,6 +1240,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/keyboard_press_delete.caf
@@ -1057,6 +1265,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/connect_power.caf
 CAFFileHeader: 
@@ -1076,6 +1288,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/focus_change_app_icon.caf
@@ -1097,6 +1313,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/keyboard_press_normal.caf
 CAFFileHeader: 
@@ -1116,6 +1336,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/go_to_sleep_alert.caf
@@ -1137,6 +1361,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/ReceivedMessage.caf
 CAFFileHeader: 
@@ -1156,6 +1384,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/ct-congestion.caf
@@ -1177,6 +1409,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/key_press_click.caf
 CAFFileHeader: 
@@ -1196,6 +1432,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/ct-keytone2.caf
@@ -1217,6 +1457,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/jbl_cancel.caf
 CAFFileHeader: 
@@ -1236,6 +1480,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/new-mail.caf
@@ -1257,6 +1505,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/shake.caf
 CAFFileHeader: 
@@ -1276,6 +1528,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/multiway_invitation.caf
@@ -1297,6 +1553,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/ct-error.caf
 CAFFileHeader: 
@@ -1316,6 +1576,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/ussd.caf
@@ -1337,6 +1601,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 233736
+    
 --- ---- ---
 /System/Library/Audio/UISounds/jbl_ambiguous.caf
 CAFFileHeader: 
@@ -1356,6 +1624,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nfc_scan_complete.caf
@@ -1377,6 +1649,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 24
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/Swish.caf
 CAFFileHeader: 
@@ -1396,6 +1672,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/payment_success.caf
@@ -1417,6 +1697,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/alarm.caf
 CAFFileHeader: 
@@ -1436,6 +1720,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/Modern/camera_shutter_burst_begin.caf
@@ -1457,6 +1745,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/Modern/camera_shutter_burst_end.caf
 CAFFileHeader: 
@@ -1476,6 +1768,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/Modern/camera_shutter_burst.caf
@@ -1497,6 +1793,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/CameraShutter_Haptic.caf
 CAFFileHeader: 
@@ -1516,6 +1816,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_PhotostreamActivity_Haptic.caf
@@ -1537,6 +1841,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-1.caf
 CAFFileHeader: 
@@ -1556,6 +1864,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 8102
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/CameraCountdownImminent_Haptic.caf
@@ -1577,6 +1889,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/AutoUnlock_Haptic.caf
 CAFFileHeader: 
@@ -1596,6 +1912,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/MediaPaused.caf
@@ -1617,6 +1937,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
     
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/3rdParty_Start_Haptic.caf
 CAFFileHeader: 
@@ -1636,6 +1960,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ScreenSharingStarted.caf
@@ -1657,6 +1985,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
     
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/QB_Dictation_Off_Haptic.caf
 CAFFileHeader: 
@@ -1676,6 +2008,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/MessagesOutgoing_Haptic.caf
@@ -1697,6 +2033,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/BuddyPairingRemoteTap_Haptic.caf
 CAFFileHeader: 
@@ -1716,6 +2056,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_BatteryLow_10p_Haptic.caf
@@ -1737,6 +2081,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/MicMute.caf
 CAFFileHeader: 
@@ -1756,6 +2104,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
+    
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SedentaryTimer_Haptic.caf
@@ -1777,6 +2129,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/call_waiting_tone_ansi.caf
 CAFFileHeader: 
@@ -1796,6 +2152,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 60
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutPausedAutoDetect.caf
@@ -1817,6 +2177,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-0.caf
 CAFFileHeader: 
@@ -1836,6 +2200,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 9378
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutSelect_Haptic.caf
@@ -1857,6 +2225,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-2.caf
 CAFFileHeader: 
@@ -1876,6 +2248,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 7466
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/VoiceOver_Click_Haptic.caf
@@ -1897,6 +2273,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Timer_Haptic.caf
 CAFFileHeader: 
@@ -1916,6 +2296,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SiriAutoSend_Haptic.caf
@@ -1937,6 +2321,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_ReminderDue_Haptic.caf
 CAFFileHeader: 
@@ -1956,6 +2344,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/TimerStart_Haptic.caf
@@ -1977,6 +2369,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/QB_Dictation_Haptic.caf
 CAFFileHeader: 
@@ -1996,6 +2392,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/BuddyPairingSuccess_Haptic.caf
@@ -2017,6 +2417,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/3rdParty_DirectionDown_Haptic.caf
 CAFFileHeader: 
@@ -2036,6 +2440,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-3.caf
@@ -2057,6 +2465,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 10512
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_Health_Haptic.caf
 CAFFileHeader: 
@@ -2076,6 +2488,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-7.caf
@@ -2097,6 +2513,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 10146
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_1stParty_Haptic.caf
 CAFFileHeader: 
@@ -2116,6 +2536,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/3rdParty_Success_Haptic.caf
@@ -2137,6 +2561,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/MicUnmuteFail.caf
 CAFFileHeader: 
@@ -2156,6 +2584,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
+    
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/HealthNotificationUrgent.caf
@@ -2177,6 +2609,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 32
     
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WalkieTalkieReceiveEnd_Haptic.caf
 CAFFileHeader: 
@@ -2196,6 +2632,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alarm_Nightstand_Haptic.caf
@@ -2217,6 +2657,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/busy_tone_ansi.caf
 CAFFileHeader: 
@@ -2236,6 +2680,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 59
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-6.caf
@@ -2257,6 +2705,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 11230
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/MultiwayLeave.caf
 CAFFileHeader: 
@@ -2276,6 +2728,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_Calendar_Haptic.caf
@@ -2297,6 +2753,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/StockholmFailure_Haptic.caf
 CAFFileHeader: 
@@ -2316,6 +2776,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-4.caf
@@ -2337,6 +2801,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 10656
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/NavigationGenericManeuver_Haptic.caf
 CAFFileHeader: 
@@ -2356,6 +2824,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/3rdParty_Stop_Haptic.caf
@@ -2377,6 +2849,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/HummingbirdCompletion_Haptic.caf
 CAFFileHeader: 
@@ -2396,6 +2872,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_SpartanConnecting_Haptic.caf
@@ -2417,6 +2897,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-5.caf
 CAFFileHeader: 
@@ -2436,6 +2920,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 9050
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Detent_Haptic.caf
@@ -2457,6 +2945,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/RingtoneDucked_US_Haptic.caf
 CAFFileHeader: 
@@ -2476,6 +2968,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Beat_Haptic.caf
@@ -2497,6 +2993,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_3rdParty_Salient_Haptic.caf
 CAFFileHeader: 
@@ -2516,6 +3016,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/MessagesIncoming_Haptic.caf
@@ -2537,6 +3041,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Notification_Haptic.caf
 CAFFileHeader: 
@@ -2556,6 +3064,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/NavigationRightTurn_Salient_Haptic.caf
@@ -2577,6 +3089,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ET_BeginNotification_Salient_Haptic.caf
 CAFFileHeader: 
@@ -2596,6 +3112,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/vc~ended.caf
@@ -2617,6 +3137,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/UISwitch_On_Haptic.caf
 CAFFileHeader: 
@@ -2636,6 +3160,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/PhoneHold_Haptic.caf
@@ -2657,6 +3185,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/StopwatchLap_Haptic.caf
 CAFFileHeader: 
@@ -2676,6 +3208,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ringback_tone_uk.caf
@@ -2697,6 +3233,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/OrbExit_Haptic.caf
 CAFFileHeader: 
@@ -2716,6 +3256,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/sms-received1.caf
@@ -2737,6 +3281,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/3rdParty_Retry_Haptic.caf
 CAFFileHeader: 
@@ -2756,6 +3304,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ET_BeginNotification_Haptic.caf
@@ -2777,6 +3329,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_ActivityGoalAttained_Haptic.caf
 CAFFileHeader: 
@@ -2796,6 +3352,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutPaused_Haptic.caf
@@ -2817,6 +3377,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/BatteryMagsafe_Haptic.caf
 CAFFileHeader: 
@@ -2836,6 +3400,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/PhoneAnswer_Haptic.caf
@@ -2857,6 +3425,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/RemoteCameraShutterBurstEnd_Haptic.caf
 CAFFileHeader: 
@@ -2876,6 +3448,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Ringtone_UK_Haptic.caf
@@ -2897,6 +3473,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutResumed_Haptic.caf
 CAFFileHeader: 
@@ -2916,6 +3496,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutPressStart_Haptic.caf
@@ -2937,6 +3521,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ScreenCapture.caf
 CAFFileHeader: 
@@ -2956,6 +3544,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ringback_tone_cept.caf
@@ -2977,6 +3569,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 59
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutComplete_Haptic.caf
 CAFFileHeader: 
@@ -2996,6 +3592,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutPaceAbove.caf
@@ -3017,6 +3617,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SiriStart_Haptic.caf
 CAFFileHeader: 
@@ -3036,6 +3640,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/HummingbirdNotification_Haptic.caf
@@ -3057,6 +3665,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_ActivityFriendsGoalAttained_Haptic.caf
 CAFFileHeader: 
@@ -3076,6 +3688,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alarm_Haptic.caf
@@ -3097,6 +3713,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Ringtone_2_Haptic-sashimi.caf
 CAFFileHeader: 
@@ -3116,6 +3736,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SiriStopSuccess_Haptic.caf
@@ -3137,6 +3761,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_ActivityGoalBehind_Salient_Haptic.caf
 CAFFileHeader: 
@@ -3156,6 +3784,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WalkAMile_Haptic.caf
@@ -3177,6 +3809,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_BatteryLow_5p_Salient_Haptic.caf
 CAFFileHeader: 
@@ -3196,6 +3832,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/StockholmActiveSingleCycle_Haptic.caf
@@ -3217,6 +3857,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/NavigationGenericManeuver_Salient_Haptic.caf
 CAFFileHeader: 
@@ -3236,6 +3880,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/StopwatchStart_Haptic.caf
@@ -3257,6 +3905,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Ringtone_2_Ducked_Haptic-sashimi.caf
 CAFFileHeader: 
@@ -3276,6 +3928,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WalkieTalkieActiveStart_Haptic.caf
@@ -3297,6 +3953,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ET_RemoteTap_Receive_Haptic.caf
 CAFFileHeader: 
@@ -3316,6 +3976,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/PhotosZoomDetent_Haptic.caf
@@ -3337,6 +4001,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_ActivityGoalAttained_Salient_Haptic.caf
 CAFFileHeader: 
@@ -3356,6 +4024,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/MultiwayInvitation.caf
@@ -3377,6 +4049,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/NavigationRightTurn_Haptic.caf
 CAFFileHeader: 
@@ -3396,6 +4072,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_PassbookBalance_Haptic.caf
@@ -3417,6 +4097,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_Voicemail_Salient_Haptic.caf
 CAFFileHeader: 
@@ -3436,6 +4120,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_ReminderDue_Salient_Haptic.caf
@@ -3457,6 +4145,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/vc~invitation-accepted.caf
 CAFFileHeader: 
@@ -3476,6 +4168,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/MultiwayJoin.caf
@@ -3497,6 +4193,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SalientNotification_Haptic.caf
 CAFFileHeader: 
@@ -3516,6 +4216,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutResumedAutoDetect.caf
@@ -3537,6 +4241,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutCountdown_Haptic.caf
 CAFFileHeader: 
@@ -3556,6 +4264,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 59
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SOSEmergencyContactTextPrompt_Haptic.caf
@@ -3577,6 +4289,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/StopwatchReset_Haptic.caf
 CAFFileHeader: 
@@ -3596,6 +4312,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/AccessScanComplete_Haptic.caf
@@ -3617,6 +4337,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Warsaw_Haptic.caf
 CAFFileHeader: 
@@ -3636,6 +4360,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_WalkieTalkie_Haptic.caf
@@ -3657,6 +4385,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/StopwatchStop_Haptic.caf
 CAFFileHeader: 
@@ -3676,6 +4408,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/PhoneHangUp_Haptic.caf
@@ -3697,6 +4433,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/StockholmActive_Haptic.caf
 CAFFileHeader: 
@@ -3716,6 +4456,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Notification_Salient_Haptic.caf
@@ -3737,6 +4481,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutPaceBelow.caf
 CAFFileHeader: 
@@ -3756,6 +4504,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_PassbookGeofence_Haptic.caf
@@ -3777,6 +4529,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/HealthReadingComplete_Haptic.caf
 CAFFileHeader: 
@@ -3796,6 +4552,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/call_waiting_tone_cept.caf
@@ -3817,6 +4577,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 59
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/RingtoneDucked_UK_Haptic.caf
 CAFFileHeader: 
@@ -3836,6 +4600,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/TimerCancel_Haptic.caf
@@ -3857,6 +4625,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_Calendar_Salient_Haptic.caf
 CAFFileHeader: 
@@ -3876,6 +4648,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WalkieTalkieActiveEnd_Haptic.caf
@@ -3897,6 +4673,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_Voicemail_Haptic.caf
 CAFFileHeader: 
@@ -3916,6 +4696,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/MediaHandoff.caf
@@ -3937,6 +4721,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
     
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/HealthReadingFail_Haptic.caf
 CAFFileHeader: 
@@ -3956,6 +4744,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/UISwipe_Haptic.caf
@@ -3977,6 +4769,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/UISwitch_Off_Haptic.caf
 CAFFileHeader: 
@@ -3996,6 +4792,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Stockholm_Haptic.caf
@@ -4017,6 +4817,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/3rdParty_DirectionUp_Haptic.caf
 CAFFileHeader: 
@@ -4036,6 +4840,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SedentaryTimer_Salient_Haptic.caf
@@ -4057,6 +4865,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SiriStopFailure_Haptic.caf
 CAFFileHeader: 
@@ -4076,6 +4888,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_SpartanDisconnected_LowLatency_Haptic.caf
@@ -4097,6 +4913,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Ringtone_US_Haptic.caf
 CAFFileHeader: 
@@ -4116,6 +4936,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/busy_tone_cept.caf
@@ -4137,6 +4961,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 59
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/OnOffPasscodeUnlockCampanion_Haptic.caf
 CAFFileHeader: 
@@ -4156,6 +4984,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SystemStartup_Haptic.caf
@@ -4177,6 +5009,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_BatteryLow_5p_Haptic.caf
 CAFFileHeader: 
@@ -4196,6 +5032,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/HourlyChime_Haptic.caf
@@ -4217,6 +5057,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/jbl_begin.caf
 CAFFileHeader: 
@@ -4236,6 +5080,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/GoToSleep_Haptic.caf
@@ -4257,6 +5105,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SOSFallDetectionPrompt_Haptic.caf
 CAFFileHeader: 
@@ -4276,6 +5128,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/BuddyPairingRemoteConnection_Haptic.caf
@@ -4297,6 +5153,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-8.caf
 CAFFileHeader: 
@@ -4316,6 +5176,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 9840
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutSaved_Haptic.caf
@@ -4337,6 +5201,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_ActivityGoalBehind_Haptic.caf
 CAFFileHeader: 
@@ -4356,6 +5224,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-star.caf
@@ -4377,6 +5249,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 12188
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/System_Notification_Haptic.caf
 CAFFileHeader: 
@@ -4396,6 +5272,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/BuddyPairingFailure_Haptic.caf
@@ -4417,6 +5297,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/jbl_confirm.caf
 CAFFileHeader: 
@@ -4436,6 +5320,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_PassbookGeofence_Salient_Haptic.caf
@@ -4457,6 +5345,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_MapsDirectionsInApp_Haptic.caf
 CAFFileHeader: 
@@ -4476,6 +5368,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-9.caf
@@ -4497,6 +5393,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 9320
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutStartAutodetect.caf
 CAFFileHeader: 
@@ -4516,6 +5416,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/TimerWheelHoursDetent_Haptic.caf
@@ -4537,6 +5441,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ET_RemoteTap_Send_Haptic.caf
 CAFFileHeader: 
@@ -4556,6 +5464,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ringback_tone_hk.caf
@@ -4577,6 +5489,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 59
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/OnOffPasscodeFailure_Haptic.caf
 CAFFileHeader: 
@@ -4596,6 +5512,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_3rdParty_Haptic.caf
@@ -4617,6 +5537,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/jbl_cancel.caf
 CAFFileHeader: 
@@ -4636,6 +5560,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/OnOffPasscodeUnlock_Haptic.caf
@@ -4657,6 +5585,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/TimerWheelMinutesDetent_Haptic.caf
 CAFFileHeader: 
@@ -4676,6 +5608,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_ActivityGoalClose_Haptic.caf
@@ -4697,6 +5633,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/MicUnmute.caf
 CAFFileHeader: 
@@ -4716,6 +5656,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 24
+    
+CAFChunkHeader: 
+  mChunkType        : chan
+  mChunkSize        : 12
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/NavigationLeftTurn_Salient_Haptic.caf
@@ -4737,6 +5681,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SwTest1_Haptic.caf
 CAFFileHeader: 
@@ -4756,6 +5704,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/vc~ringing_watch.caf
@@ -4777,6 +5729,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/TimerPause_Haptic.caf
 CAFFileHeader: 
@@ -4796,6 +5752,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/SOSFallDetectionPromptEscalation_Haptic.caf
@@ -4817,6 +5777,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/end_call_tone_cept.caf
 CAFFileHeader: 
@@ -4836,6 +5800,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 61
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_SpartanConnecting_LowLatency_Haptic.caf
@@ -4857,6 +5825,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ringback_tone_aus.caf
 CAFFileHeader: 
@@ -4876,6 +5848,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 59
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/RemoteCameraShutterBurstBegin_Haptic.caf
@@ -4897,6 +5873,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 61
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/BuddyMigrationStart_Haptic.caf
 CAFFileHeader: 
@@ -4916,6 +5896,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/NavigationLeftTurn_Haptic.caf
@@ -4937,6 +5921,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/vc~ringing.caf
 CAFFileHeader: 
@@ -4956,6 +5944,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Preview_AudioAndHaptic.caf
@@ -4977,6 +5969,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ct-call-waiting.caf
 CAFFileHeader: 
@@ -4996,6 +5992,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/DoNotDisturb_Haptic.caf
@@ -5017,6 +6017,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/HeadphoneAudioExposureLimitExceeded.caf
 CAFFileHeader: 
@@ -5036,6 +6040,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WorkoutCompleteAutodetect.caf
@@ -5057,6 +6065,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/3rd_Party_Critical_Haptic.caf
 CAFFileHeader: 
@@ -5076,6 +6088,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/Alert_SpartanConnected_LowLatency_Haptic.caf
@@ -5097,6 +6113,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/OrbLayers_Haptic.caf
 CAFFileHeader: 
@@ -5116,6 +6136,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/WalkieTalkieReceiveStart_Haptic.caf
@@ -5137,6 +6161,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 62
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/3rdParty_Failure_Haptic.caf
 CAFFileHeader: 
@@ -5156,6 +6184,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/ringback_tone_ansi.caf
@@ -5177,6 +6209,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 59
+    
 --- ---- ---
 /System/Library/Audio/UISounds/nano/CameraCountdownTick_Haptic.caf
 CAFFileHeader: 
@@ -5196,6 +6232,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/nano/dtmf-pound.caf
@@ -5217,6 +6257,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : data
+  mChunkSize        : 8722
+    
 --- ---- ---
 /System/Library/Audio/UISounds/New/Choo_Choo.caf
 CAFFileHeader: 
@@ -5236,6 +6280,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/New/Fanfare.caf
@@ -5257,6 +6305,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/New/Update.caf
 CAFFileHeader: 
@@ -5276,6 +6328,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/New/Bloom.caf
@@ -5297,6 +6353,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/New/Telegraph.caf
 CAFFileHeader: 
@@ -5316,6 +6376,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/New/Descent.caf
@@ -5337,6 +6401,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/New/Ladder.caf
 CAFFileHeader: 
@@ -5356,6 +6424,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/New/Sherwood_Forest.caf
@@ -5377,6 +6449,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/New/Calypso.caf
 CAFFileHeader: 
@@ -5396,6 +6472,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/New/Suspense.caf
@@ -5417,6 +6497,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/New/Noir.caf
 CAFFileHeader: 
@@ -5436,6 +6520,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : info
+  mChunkSize        : 63
     
 --- ---- ---
 /System/Library/Audio/UISounds/New/News_Flash.caf
@@ -5457,6 +6545,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/New/Spell.caf
 CAFFileHeader: 
@@ -5476,6 +6568,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/New/Minuet.caf
@@ -5497,6 +6593,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/New/Tiptoes.caf
 CAFFileHeader: 
@@ -5516,6 +6616,10 @@ CAFAudioFormat:
   mFramesPerPacket  : 1
   mChannelsPerFrame : 2
   mBitsPerChannel   : 16
+    
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
     
 --- ---- ---
 /System/Library/Audio/UISounds/New/Typewriters.caf
@@ -5537,6 +6641,10 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
 /System/Library/Audio/UISounds/New/Anticipate.caf
 CAFFileHeader: 
@@ -5557,6 +6665,9 @@ CAFAudioFormat:
   mChannelsPerFrame : 1
   mBitsPerChannel   : 16
     
+CAFChunkHeader: 
+  mChunkType        : free
+  mChunkSize        : 4016
+    
 --- ---- ---
-
 
