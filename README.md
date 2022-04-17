@@ -1,5 +1,5572 @@
 # pystaCoreAudioFormatVisual
 
+## 📝 2022/04/17
+
+``` formatLogs
+/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 22050.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/key_press_delete.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/acknowledgment_received.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 0
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/SIMToolkitPositiveACK.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/short_double_high.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/acknowledgment_sent.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 96000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/tweet_sent.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/end_record.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/begin_record.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/SIMToolkitCallDropped.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 22050.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/Tink.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/short_double_low.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/Tock.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/sms-received2.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/focus_change_small.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 96000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/access_scan_complete.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/lock.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/sms-received3.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/sms-received1.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/ct-path-ack.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 11025.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/keyboard_press_clear.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/3rd_party_critical.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/sms-received4.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/SIMToolkitSMS.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/photoShutter.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/camera_timer_countdown.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/sms-received5.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/SIMToolkitGeneralBeep.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 22050.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/middle_9_short_double_low.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/focus_change_large.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 96000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/SentMessage.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/sms-received6.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/RingerChanged.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 22050.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/navigation_push.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 96000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/jbl_no_match.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/payment_failure.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 3
+  mBytesPerPacket	: 8
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 64
+    
+--- ---- ---
+/System/Library/Audio/UISounds/warsaw.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 3
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/navigation_pop.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 96000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/health_notification.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/NavigationGenericManeuver.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 3
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 32
+    
+--- ---- ---
+/System/Library/Audio/UISounds/key_press_modifier.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nfc_scan_failure.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 3
+  mBytesPerPacket	: 8
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 64
+    
+--- ---- ---
+/System/Library/Audio/UISounds/ct-busy.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 11025.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/camera_timer_final_second.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/wheels_of_time.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 3
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/low_power.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/long_low_short_high.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/mail-sent.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/jbl_begin.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/short_low_high.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/focus_change_keyboard.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/jbl_confirm.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/keyboard_press_delete.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/connect_power.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/focus_change_app_icon.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 96000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/keyboard_press_normal.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/go_to_sleep_alert.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/ReceivedMessage.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/ct-congestion.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 11025.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/key_press_click.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/ct-keytone2.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 11025.0
+  mFormatID			: lpcm
+  mFormatFlags		: 0
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/jbl_cancel.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/new-mail.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/shake.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/multiway_invitation.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/ct-error.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 11025.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/ussd.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/jbl_ambiguous.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nfc_scan_complete.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 3
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/Swish.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/payment_success.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/alarm.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/Modern/camera_shutter_burst_begin.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/Modern/camera_shutter_burst_end.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/Modern/camera_shutter_burst.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/CameraShutter_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_PhotostreamActivity_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-1.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/CameraCountdownImminent_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/AutoUnlock_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/MediaPaused.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/3rdParty_Start_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ScreenSharingStarted.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/QB_Dictation_Off_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/MessagesOutgoing_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/BuddyPairingRemoteTap_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_BatteryLow_10p_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/MicMute.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SedentaryTimer_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/call_waiting_tone_ansi.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutPausedAutoDetect.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-0.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutSelect_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-2.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/VoiceOver_Click_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Timer_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SiriAutoSend_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_ReminderDue_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/TimerStart_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/QB_Dictation_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/BuddyPairingSuccess_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/3rdParty_DirectionDown_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-3.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_Health_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-7.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_1stParty_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/3rdParty_Success_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/MicUnmuteFail.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/HealthNotificationUrgent.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 3
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 32
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WalkieTalkieReceiveEnd_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alarm_Nightstand_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/busy_tone_ansi.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-6.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/MultiwayLeave.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_Calendar_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/StockholmFailure_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-4.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/NavigationGenericManeuver_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/3rdParty_Stop_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/HummingbirdCompletion_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_SpartanConnecting_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-5.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Detent_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/RingtoneDucked_US_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Beat_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_3rdParty_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/MessagesIncoming_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Notification_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/NavigationRightTurn_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ET_BeginNotification_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/vc~ended.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/UISwitch_On_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/PhoneHold_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/StopwatchLap_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ringback_tone_uk.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 16000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/OrbExit_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/sms-received1.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/3rdParty_Retry_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ET_BeginNotification_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_ActivityGoalAttained_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutPaused_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/BatteryMagsafe_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/PhoneAnswer_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/RemoteCameraShutterBurstEnd_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Ringtone_UK_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutResumed_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutPressStart_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ScreenCapture.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ringback_tone_cept.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutComplete_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutPaceAbove.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SiriStart_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/HummingbirdNotification_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_ActivityFriendsGoalAttained_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alarm_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Ringtone_2_Haptic-sashimi.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SiriStopSuccess_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_ActivityGoalBehind_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WalkAMile_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_BatteryLow_5p_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/StockholmActiveSingleCycle_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/NavigationGenericManeuver_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/StopwatchStart_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Ringtone_2_Ducked_Haptic-sashimi.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WalkieTalkieActiveStart_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ET_RemoteTap_Receive_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/PhotosZoomDetent_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_ActivityGoalAttained_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/MultiwayInvitation.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/NavigationRightTurn_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_PassbookBalance_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_Voicemail_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_ReminderDue_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/vc~invitation-accepted.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/MultiwayJoin.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SalientNotification_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutResumedAutoDetect.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutCountdown_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SOSEmergencyContactTextPrompt_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/StopwatchReset_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/AccessScanComplete_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Warsaw_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_WalkieTalkie_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/StopwatchStop_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/PhoneHangUp_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/StockholmActive_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Notification_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutPaceBelow.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_PassbookGeofence_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/HealthReadingComplete_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/call_waiting_tone_cept.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/RingtoneDucked_UK_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/TimerCancel_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_Calendar_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WalkieTalkieActiveEnd_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_Voicemail_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/MediaHandoff.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/HealthReadingFail_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/UISwipe_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/UISwitch_Off_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Stockholm_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/3rdParty_DirectionUp_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SedentaryTimer_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SiriStopFailure_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_SpartanDisconnected_LowLatency_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Ringtone_US_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/busy_tone_cept.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/OnOffPasscodeUnlockCampanion_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SystemStartup_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_BatteryLow_5p_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/HourlyChime_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/jbl_begin.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/GoToSleep_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SOSFallDetectionPrompt_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/BuddyPairingRemoteConnection_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-8.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutSaved_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_ActivityGoalBehind_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-star.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/System_Notification_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/BuddyPairingFailure_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/jbl_confirm.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_PassbookGeofence_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_MapsDirectionsInApp_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-9.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutStartAutodetect.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/TimerWheelHoursDetent_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ET_RemoteTap_Send_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ringback_tone_hk.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/OnOffPasscodeFailure_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_3rdParty_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/jbl_cancel.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/OnOffPasscodeUnlock_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/TimerWheelMinutesDetent_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_ActivityGoalClose_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/MicUnmute.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 48000.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 6
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 24
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/NavigationLeftTurn_Salient_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SwTest1_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/vc~ringing_watch.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/TimerPause_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/SOSFallDetectionPromptEscalation_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/end_call_tone_cept.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_SpartanConnecting_LowLatency_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ringback_tone_aus.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/RemoteCameraShutterBurstBegin_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/BuddyMigrationStart_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/NavigationLeftTurn_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/vc~ringing.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Preview_AudioAndHaptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ct-call-waiting.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 11025.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/DoNotDisturb_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/HeadphoneAudioExposureLimitExceeded.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WorkoutCompleteAutodetect.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/3rd_Party_Critical_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/Alert_SpartanConnected_LowLatency_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/OrbLayers_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/WalkieTalkieReceiveStart_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/3rdParty_Failure_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/ringback_tone_ansi.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/CameraCountdownTick_Haptic.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/nano/dtmf-pound.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Choo_Choo.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Fanfare.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Update.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Bloom.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Telegraph.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Descent.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Ladder.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Sherwood_Forest.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Calypso.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Suspense.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Noir.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/News_Flash.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Spell.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Minuet.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Tiptoes.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 4
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 2
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Typewriters.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+/System/Library/Audio/UISounds/New/Anticipate.caf
+CAFFileHeader: 
+  mFileType			: caff
+  mFileVersion		: 1
+  mFileFlags			: 0
+    
+CAFChunkHeader: 
+  mChunkType			: desc
+  mChunkSize			: 32
+    
+CAFAudioFormat: 
+  mSampleRate			: 44100.0
+  mFormatID			: lpcm
+  mFormatFlags		: 2
+  mBytesPerPacket	: 2
+  mFramesPerPacket	: 1
+  mChannelsPerFrame	: 1
+  mBitsPerChannel	: 16
+    
+--- ---- ---
+
+
+```
+
 ## 📝 2022/04/15
 
 やはり、頭は抜く
