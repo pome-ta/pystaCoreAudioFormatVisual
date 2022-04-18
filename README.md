@@ -4,14 +4,17 @@
 
 ## 📝 2022/04/18
 
+### `/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf` data Table
+
 | struct size | name | field | value | ctypes |size |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 8 | CAFFileHeader | mFileType | `caff` | `c_uint32` | 4 |
 | ^ | ^ | mFileVersion | `1` | `c_uint16` | 2 |
 | ^ | ^ | mFileFlags | `0` | `c_uint16` | 2 |
 | 12 | CAFChunkHeader | mChunkType | `desc` | `c_uint32` | 4 |
-| ^ | ^ | mChunkSize | `32`(`CAFAudioFormat`) | `c_int64` | 6 |
-| 32 | CAFAudioFormat | mSampleRate | `22050.0` | `c_double` | 8 |
+| ^ | ^ | mChunkSize | `32`(`CAFAudioFormat`) | `c_int64` | 8 |
+| --- | --- | --- | --- | --- | --- |
+| 32 (`CAFChunkHeader.mChunkSize`) | CAFAudioFormat | mSampleRate | `22050.0` | `c_double` | 8 |
 | ^ | ^ | mFormatID | `lpcm` | `c_uint32` | 4 |
 | ^ | ^ | mFormatFlags | `2` | `c_uint32` | 4 |
 | ^ | ^ | mBytesPerPacket | `4` | `c_uint32` | 4 |

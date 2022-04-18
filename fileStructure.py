@@ -5,15 +5,15 @@ import ctypes
 import matplotlib.pyplot as plt
 
 path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
-path_str = '/System/Library/Audio/UISounds/SIMToolkitCallDropped.caf'
+#path_str = '/System/Library/Audio/UISounds/SIMToolkitCallDropped.caf'
 
 #path_str = '/System/Library/Audio/UISounds/New/Bloom.caf'
 
-path_str = '/System/Library/Audio/UISounds/nano/dtmf-9.caf'
+#path_str = '/System/Library/Audio/UISounds/nano/dtmf-9.caf'
 
-path_str = '/System/Library/Audio/UISounds/middle_9_short_double_low.caf'
+#path_str = '/System/Library/Audio/UISounds/middle_9_short_double_low.caf'
 
-path_str = '/System/Library/Audio/UISounds/short_double_high.caf'
+#path_str = '/System/Library/Audio/UISounds/short_double_high.caf'
 
 path = Path(path_str)
 

@@ -78,8 +78,8 @@ class HexView(ui.View):
 
 
 if __name__ == '__main__':
-  #path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
-  path_str = '/System/Library/Audio/UISounds/SIMToolkitCallDropped.caf'
+  path_str = '/System/Library/Audio/UISounds/SIMToolkitNegativeACK.caf'
+  #path_str = '/System/Library/Audio/UISounds/SIMToolkitCallDropped.caf'
   
   #path_str = '/System/Library/Audio/UISounds/New/Bloom.caf'
   #path_str = '/System/Library/Audio/UISounds/mail-sent.caf'
