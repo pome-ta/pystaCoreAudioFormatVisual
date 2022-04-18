@@ -71,7 +71,7 @@ class CAFAudioFormat(ctypes.BigEndianStructure):
 
     return str
 
-# xxx: `cafChunkHeader.mChunkSize` 無視で固定でOk？
+
 size_cfh = ctypes.sizeof(CAFFileHeader)
 size_cch = ctypes.sizeof(CAFChunkHeader)
 size_caf = ctypes.sizeof(CAFAudioFormat)
@@ -98,7 +98,15 @@ def set_struct(read_path):
   audioDataChunkHeader = CAFChunkHeader.from_buffer(bytearray(dataChunkHeader))
   
   
-  
+  if audioDataChunkHeader.mChunkType.to_bytes(4, 'big').decode() == 'info':
+    '''
+    print(read_path)
+    print(cafFileHeader)
+    print(cafChunkHeader)
+    print(cafAudioFormat)
+    print(audioDataChunkHeader)
+    '''
+    pass
   
   if audioDataChunkHeader.mChunkType.to_bytes(4, 'big').decode() == 'data':
     cafaudio_size = audioDataChunkHeader.mChunkSize
@@ -118,6 +126,9 @@ def set_struct(read_path):
     
     
     print(read_path)
+    print(f'mChannelsPerFrame: {cafAudioFormat.mChannelsPerFrame}')
+    print(f'mBytesPerPacket: {cafAudioFormat.mBytesPerPacket}')
+    plot_view(data_l, data_r)
     #print(cafFileHeader)
     #print(cafChunkHeader)
     #print(cafAudioFormat)
@@ -125,15 +136,9 @@ def set_struct(read_path):
     #print(len(cafData))
     #print(chunk_caf, chunk_dch, chunk_dch-chunk_caf)
     #plt.title(f'{read_path}')
-    plt.subplot(2, 1, 1)
-    plt.plot(data_l, alpha=0.5)
-    #plt.plot(data_l)
-    plt.subplot(2, 1, 2)
-    plt.plot(data_r, alpha=0.5)
-    #plt.plot(data_r)
-    plt.show()
-    plt.close()
+    
     print('--- ---- ---')
+    
 
 
 def to_int16(mb):
@@ -143,7 +148,15 @@ def to_int16(mb):
 def byte_to_array(mbyte, cols):
   return [to_int16(mbyte[b:b + cols]) for b in range(0, len(mbyte), cols)]
 
-
+def plot_view(l, r):
+  plt.subplot(2, 1, 1)
+  plt.plot(l, alpha=0.5)
+  #plt.plot(data_l)
+  plt.subplot(2, 1, 2)
+  plt.plot(r, alpha=0.5)
+  #plt.plot(data_r)
+  plt.show()
+  plt.close()
 
 
 
