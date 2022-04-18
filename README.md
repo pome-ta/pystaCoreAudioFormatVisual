@@ -14,7 +14,7 @@
 | 12 | CAFChunkHeader | mChunkType | `desc` | `c_uint32` | 4 |
 | ^ | ^ | mChunkSize | `32`(`CAFAudioFormat`) | `c_int64` | 8 |
 | --- | --- | --- | --- | --- | --- |
-| 32 (`CAFChunkHeader.mChunkSize`) | CAFAudioFormat | mSampleRate | `22050.0` | `c_double` | 8 |
+| 32 (`mChunkSize`) | CAFAudioFormat | mSampleRate | `22050.0` | `c_double` | 8 |
 | ^ | ^ | mFormatID | `lpcm` | `c_uint32` | 4 |
 | ^ | ^ | mFormatFlags | `2` | `c_uint32` | 4 |
 | ^ | ^ | mBytesPerPacket | `4` | `c_uint32` | 4 |
