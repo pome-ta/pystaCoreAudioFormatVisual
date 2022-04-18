@@ -11,7 +11,7 @@
 | ^ | ^ | mFileFlags | `0` | `c_uint16` | 2 |
 | 12 | CAFChunkHeader | mChunkType | `desc` | `c_uint32` | 4 |
 | ^ | ^ | mChunkSize | `3` | `c_int64` | 6 |
-| 32 | CAFChunkHeader | mSampleRate | `22050.0` | `c_double` | 8 |
+| 32 | CAFAudioFormat | mSampleRate | `22050.0` | `c_double` | 8 |
 | ^ | ^ | mFormatID | `lpcm` | `c_uint32` | 4 |
 | ^ | ^ | mFormatFlags | `2` | `c_uint32` | 4 |
 | ^ | ^ | mBytesPerPacket | `4` | `c_uint32` | 4 |
