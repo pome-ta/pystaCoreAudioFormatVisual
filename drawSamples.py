@@ -1,7 +1,7 @@
 from pathlib import Path
 import ctypes
 
-
+import matplotlib.pyplot as plt
 
 class CAFFileHeader(ctypes.BigEndianStructure):
   #class CAFFileHeader(ctypes.Structure):
@@ -71,7 +71,7 @@ class CAFAudioFormat(ctypes.BigEndianStructure):
 
     return str
 
-
+# xxx: `cafChunkHeader.mChunkSize` 無視で固定でOk？
 size_cfh = ctypes.sizeof(CAFFileHeader)
 size_cch = ctypes.sizeof(CAFChunkHeader)
 size_caf = ctypes.sizeof(CAFAudioFormat)
@@ -90,22 +90,49 @@ def set_struct(read_path):
   cafFileHeader = CAFFileHeader.from_buffer(bytearray(fileHeader))
   
   cafChunkHeader = CAFChunkHeader.from_buffer(bytearray(chunkHeader))
+  
   cafAudioFormat = CAFAudioFormat.from_buffer(bytearray(audioFormat))
   
-  mChunkSize = cafChunkHeader.mChunkSize
-  chunk_dch = chunk_caf + mChunkSize
+  chunk_dch = chunk_caf + size_cch
   dataChunkHeader = sound_bytes[chunk_caf:chunk_dch]
   audioDataChunkHeader = CAFChunkHeader.from_buffer(bytearray(dataChunkHeader))
   
   
+  
+  
   if audioDataChunkHeader.mChunkType.to_bytes(4, 'big').decode() == 'data':
+    cafaudio_size = audioDataChunkHeader.mChunkSize
+    chunk_ads = chunk_dch + cafaudio_size
+    
+    cafData = sound_bytes[chunk_dch: chunk_ads]
+    mEditCount = cafData[:4]
+    mData = cafData[4:]
+    
+    data = byte_to_array(mData, 2)
+    if cafAudioFormat.mChannelsPerFrame == 2 and cafAudioFormat.mBytesPerPacket == 4:
+      data_l = data[::2]
+      data_r = data[1::2]
+    elif cafAudioFormat.mChannelsPerFrame == 1 and cafAudioFormat.mBytesPerPacket == 2:
+      data_l = data
+      data_r = data
+    
+    
     print(read_path)
-    print(cafFileHeader)
-    print(cafChunkHeader)
-    print(cafAudioFormat)
-    print(audioDataChunkHeader)
-    #print(mChunkSize)
+    #print(cafFileHeader)
+    #print(cafChunkHeader)
+    #print(cafAudioFormat)
+    #print(audioDataChunkHeader)
+    #print(len(cafData))
     #print(chunk_caf, chunk_dch, chunk_dch-chunk_caf)
+    #plt.title(f'{read_path}')
+    plt.subplot(2, 1, 1)
+    plt.plot(data_l, alpha=0.5)
+    #plt.plot(data_l)
+    plt.subplot(2, 1, 2)
+    plt.plot(data_r, alpha=0.5)
+    #plt.plot(data_r)
+    plt.show()
+    plt.close()
     print('--- ---- ---')
 
 
