@@ -7,17 +7,17 @@
 | struct size | name | field | value | ctypes |size |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 8 | CAFFileHeader | mFileType | `caff` | `c_uint32` | 4 |
-| ^ | ^ | mFileVersion | `1` | `uint16` | 2 |
-| ^ | ^ | mFileFlags | `0` | `uint16` | 2 |
+| ^ | ^ | mFileVersion | `1` | `c_uint16` | 2 |
+| ^ | ^ | mFileFlags | `0` | `c_uint16` | 2 |
 | 12 | CAFChunkHeader | mChunkType | `desc` | `c_uint32` | 4 |
-| ^ | ^ | mChunkSize | `3` | `int64` | 6 |
-| 12 | CAFChunkHeader | mSampleRate | `22050.0` | `c_uint32` | 4 |
-| ^ | ^ | mFormatID | `lpcm` | `int64` | 6 |
-| ^ | ^ | mFormatFlags | `32` | `int64` | 6 |
-| ^ | ^ | mBytesPerPacket | `32` | `int64` | 6 |
-| ^ | ^ | mFramesPerPacket | `32` | `int64` | 6 |
-| ^ | ^ | mChannelsPerFrame | `32` | `int64` | 6 |
-| ^ | ^ | mBitsPerChannel | `32` | `int64` | 6 |
+| ^ | ^ | mChunkSize | `3` | `c_double` | 6 |
+| 32 | CAFChunkHeader | mSampleRate | `22050.0` | `c_uint32` | 4 |
+| ^ | ^ | mFormatID | `lpcm` | `c_uint32` | 4 |
+| ^ | ^ | mFormatFlags | `32` | `c_uint32` | 4 |
+| ^ | ^ | mBytesPerPacket | `32` | `c_uint32` | 4 |
+| ^ | ^ | mFramesPerPacket | `32` | `c_uint32` | 4 |
+| ^ | ^ | mChannelsPerFrame | `32` | `c_uint32` | 4 |
+| ^ | ^ | mBitsPerChannel | `32` | `c_uint32` | 4 |
 
 
 
