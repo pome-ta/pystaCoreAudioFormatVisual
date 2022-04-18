@@ -10,8 +10,14 @@
 | ^ | ^ | mFileVersion | `1` | `uint16` | 2 |
 | ^ | ^ | mFileFlags | `0` | `uint16` | 2 |
 | 12 | CAFChunkHeader | mChunkType | `desc` | `c_uint32` | 4 |
-| ^ | ^ | mChunkSize | `32` | `int64` | 6 |
-
+| ^ | ^ | mChunkSize | `3` | `int64` | 6 |
+| 12 | CAFChunkHeader | mSampleRate | `22050.0` | `c_uint32` | 4 |
+| ^ | ^ | mFormatID | `lpcm` | `int64` | 6 |
+| ^ | ^ | mFormatFlags | `32` | `int64` | 6 |
+| ^ | ^ | mBytesPerPacket | `32` | `int64` | 6 |
+| ^ | ^ | mFramesPerPacket | `32` | `int64` | 6 |
+| ^ | ^ | mChannelsPerFrame | `32` | `int64` | 6 |
+| ^ | ^ | mBitsPerChannel | `32` | `int64` | 6 |
 
 
 

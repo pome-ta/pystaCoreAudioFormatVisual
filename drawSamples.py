@@ -100,12 +100,12 @@ def set_struct(read_path):
   
   if audioDataChunkHeader.mChunkType.to_bytes(4, 'big').decode() == 'data':
     print(read_path)
-    #print(cafFileHeader)
+    print(cafFileHeader)
     print(cafChunkHeader)
-    #print(cafAudioFormat)
+    print(cafAudioFormat)
     print(audioDataChunkHeader)
-    print(mChunkSize)
-    print(chunk_caf, chunk_dch, chunk_dch-chunk_caf)
+    #print(mChunkSize)
+    #print(chunk_caf, chunk_dch, chunk_dch-chunk_caf)
     print('--- ---- ---')
 
 
